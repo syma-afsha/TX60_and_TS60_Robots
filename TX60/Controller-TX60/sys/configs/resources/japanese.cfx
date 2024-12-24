@@ -1,0 +1,1343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourcesList>
+  <Resources name="CHW" >
+    <String name="bootInitFieldbus" value="Fieldbus と Modbus の初期化中" />
+    <String name="bootInitDrives" value="ドライブの初期化中" />
+    <String name="bootCheckStarc" value="STARC ファームウェアのチェック中: " />
+    <String name="bootStarkReboot" value="再起動" />
+    <String name="bootStarkDone" value="実行" />
+    <String name="bootStarkOk" value="ＯＫ" />
+    <String name="bootMcpUpdate" value="MCPファームウェアを更新します" />
+    <String name="bootPressAnyKey" value="更新を開始します。何かキーを押して下さい..." />
+    <String name="bootWaitBeforeRestart1" value="お待ち下さい" />
+    <String name="bootWaitBeforeRestart2" value="再スタート前に、リメインオフしてください" />
+    <String name="cpuFpgaUpdateWait" value="CPU fpga を更新中, お待ち下さい..." />
+    <String name="cpuFpgaUpdateSuccess" value="CPU fpga を更新しました &#13;&#10; 再起動して下さい" />
+    <String name="cpuFpgaUpdateFailed" value="CPU fpga の更新に失敗しました &#13;&#10;" />
+  </Resources>
+  <Resources name="CDS" >
+    <String name="applicationName" value="CoDeSys アプリケーション" help="CoDeSys アプリケーション" />
+    <String name="statusNodeName" value="ステータス : " />
+    <String name="statusRun" value="起動中" />
+    <String name="statusStopBp" value="停止（ブレークポイント）" />
+    <String name="statusStopError" value="停止（エラー）" />
+    <String name="statusStopSrv" value="停止（通常）" />
+    <String name="statusStopWd" value="停止（ウォッチドッグ）" />
+    <String name="treeName" value="CoDeSys" help="" />
+  </Resources>
+  <Resources name="PLC" >
+    <String name="applicationName" value="PLC" help="PLCのプログラム、プロパティ、ステータスを編集するユーティリティ" />
+    <String name="cycleAllowedNode" value="指定サイクルタイム (ms):" help="PLC開発環境で指定されたサイクルタイム" />
+    <String name="cycleCurrentNode" value="測定サイクルタイム (ms): " help="最後に測定されたサイクルタイム" />
+    <String name="cycleMaxNode" value="最も悪い場合のサイクルタイム (ms): " help="PLCの開始から測定された中でもっとも遅いサイクルタイム" />
+    <String name="error" value="PLC エラー: " />
+    <String name="errorBadDirection" value=" 予期された出力" />
+    <String name="errorEmptyMap" value="CS8で I/O が割り当てられていません" />
+    <String name="errorIoNotFound" value=" 見つかりません" />
+    <String name="errorMemory" value=" メモリオーバー" />
+    <String name="errorRead" value=" 読み込みエラー" />
+    <String name="errorSramNotEnoughtPlace" value="Sramは変数を保存できる十分な領域がありません." />
+    <String name="errorSramNotAvailable" value="変数を保存するSramがありません." />
+    <String name="errorSramCorrupted" value="Sramの破損.変数を復元できません." />
+    <String name="errorType" value=" 予期しないエラー" />
+    <String name="errorWrite" value=" 書き込みエラー" />
+    <String name="overrunLogMsg" value="PLCオーバラン" />
+    <String name="overrunNode" value="オーバーラン:" help="" />
+    <String name="startLogMsg" value="PLC %name 開始" />
+    <String name="statusPaused" value=" 停止" />
+    <String name="statusRunning" value=" 動作中" />
+    <String name="stopLogMsg" value="PLC %name 停止" />
+    <String name="tcpChannelNode" value="Ethernet TCP port:" help="PLC開発環境とのTCP通信ポート" />
+    <String name="trialTimeElapsed" value="PLC デモタイムが超過しました" />
+    <String name="runFlag" value="PLC" />
+    <String name="overrunFlag" value="OVR" />
+  </Resources>
+  <Resources name="SCA" >
+    <String name="calibAdjustmentAll" value="全軸調整" />
+    <String name="calibAdjustmentOne" value="軸調整" />
+    <String name="calibAskForExportArmParam" value="アームのキャリブレーションデータのバックアップ用フロッピーを挿入してください。" />
+    <String name="calibAskForExportCellParam" value="キャリブレーション用の参照ポジションデータのバックアップ用フロッピーを挿入してください。" />
+    <String name="calibAxis" value="軸 %d" />
+    <String name="calibCurrentPosition" value="Cur. Joint" />
+    <String name="calibEnabled" value="アームパワーがセットされました" />
+    <String name="calibEnumCellRef1" value="Cal Ref1" />
+    <String name="calibEnumCellRef2" value="Cal Ref2" />
+    <String name="calibEnumFactoryMark" value="Factory Mark" />
+    <String name="calibEnumReferencePosition" value="参照ポジション : " />
+    <String name="calibEnumUserMark" value="User Marks" />
+    <String name="calibEnumZeroMark" value="Zero" />
+    <String name="calibFirstBootMsg" value="まずロボットのキャリブレーションのため、マークにロボットをセットし、Recボタンを押して下さい。" />
+    <String name="buildErrorBootMsg" value="起動中にエラーが発生しました。ロボットは操作できません。詳細はログをご覧下さい。" />
+    <String name="calibGotoAllAxisMsg" value="選択された参照ポジションにセットするため、Move/Holdボタンを押して下さい。" />
+    <String name="calibGotoOneAxisMsg" value="指定した軸を参照ポジションにセットするため、Move/Holdボタンを押して下さい。" />
+    <String name="calibHereAllAxisWarning" value="警告！参照ポジションは変更されます。" />
+    <String name="calibHereOneAxisWarning" value="警告！指定した軸の参照ポジションは変更されます。" />
+    <String name="calibImportConfirmMsg" value="警告！アームのキャリブレーションは再起動後に修正されます。" />
+    <String name="calibImportMsg" value="新しいアームの設定が有効になるには、再起動が必要です。" />
+    <String name="calibInfoPageTitle" value="センサー ステータス" />
+    <String name="calibMnuAxisGoto" value="Move" help="指定した軸の参照ポジションに移動します。" />
+    <String name="calibMnuAxisHere" value="Here" help="指定した軸の現在のアームポジションを参照ポジションとして割り当てます。" />
+    <String name="calibMnuAxisPositionRecovery" value="Rec." help="指定した軸のポジションをリカバリします。" />
+    <String name="calibMnuAxisPositionSet" value="Adj." help="指定した軸を調整します。" />
+    <String name="calibMnuGoto" value="Move" help="指定した参照ポジションに移動します。" />
+    <String name="calibMnuHere" value="Here" help="全ての軸の現在のアームポジションを参照ポジションとして割り当てます。" />
+    <String name="calibMnuInfo" value="Info" help="センサーステータスの表示" />
+    <String name="calibMnuJointEdit" value="Edit" help="参照ポジションの座標を編集します。" />
+    <String name="calibMnuLoad" value="Imp." help="フロッピーからアーム設定をインポートします。" />
+    <String name="calibMnuPositionRecovery" value="Rec." help="コントローラとアームの通信の後に、全ての軸でポジションのリカバリをします。軸はマークにセットしてください。（２,３度以内）" />
+    <String name="calibMnuPositionSet" value="Adj." help="モータの交換もしくは故障後に、全ての軸を調整します。各軸の現在のポジションは原点ゼロにセットされます。" />
+    <String name="calibMnuSave" value="Exp." help="アーム設定をフロッピーに保存します。" />
+    <String name="calibPrecArmChangedQuestion" value="コントローラのデータが、アームのデータと一致しません。アームデータをコントローラにコピーしますか？" />
+    <String name="calibPrecDisablePowerMsg" value="新しいアームキャリブレーションを有効にするため、アームパワーを切ります。" />
+    <String name="calibPrecDsiChangedQuestion" value="コントローラのデータをアームにコピーしますか（新しいDSIボード）？" />
+    <String name="calibPrecFatalErrorMsg" value="アームのデータがコントローラの内容と一致しません。&apos;s arm.cfx file. 現在のアームのキャリブレーションをリカバリするには問題の原因を特定してください。" />
+    <String name="calibPrecMsg" value="注意, ロボットのポジションをリカバリします。アームを参照ポジションにセットしてください。" />
+    <String name="calibPrecRecoveryProcedureErrorMsg" value="もし以前のセンサーのまま新しいモータがセットされたなら、その軸のゼロオフセットを調整してください。(&apos;Adj&apos; menu) もしモーターセンサーのオフセットが正しいかどうかはっきりしないなら、オフセットの調整を行ってください。" />
+    <String name="calibPrecSensorChangedQuestion" value="センサーかモータを変えましたか？" />
+    <String name="calibPrecTitle" value="ロボットポジションのリカバリ" />
+    <String name="calibPsetDisablePowerMsg" value="新しいアームキャリブレーションを有効にするには、アーム電源を切って下さい。" />
+    <String name="calibPsetMsg" value="注意, 軸を調整します。アームは参照ポジションに正確にセットされます。" />
+    <String name="calibPsetTitle" value="軸調整" />
+    <String name="calibRecoveryAll" value="全ての軸のポジションリカバリ" />
+    <String name="calibRecoveryOne" value="軸＃のポジションリカバリ" />
+    <String name="calibReference" value="参照" />
+    <String name="calibReferenceModified" value=" 修正されました" />
+    <String name="calibReferencePosition" value="Ref. Pos." />
+    <String name="calibReferenceTeached" value=" taught" />
+    <String name="calibResultExportError" value="エクスポート中のエラー" />
+    <String name="calibResultImportError" value="インポート中のエラー" />
+    <String name="calibResultPositionRecoveryKo" value="ポジション リカバリ エラー" />
+    <String name="calibResultPositionSetKo" value="ポジションセットエラー" />
+    <String name="calibTitle" value="キャリブレーション" help="アームポジションのリカバリ・調整のメンテナンスユーティリティ" />
+    <String name="controlPanelApp" value="コントロールパネル" help="ロボットステータスのユーティリティ" />
+    <String name="ctrlPanelCbtTemp" value="キャビネット内温度 : " help="" />
+    <String name="ctrlPanelCom2Type" value="COM2: " />
+    <String name="ctrlPanelControllerNode" value="コントローラ" help="コントローラ設定" />
+    <String name="ctrlPanelControllerParametersNetworkNode" value="ネットワーク" help="" />
+    <String name="ctrlPanelControllerParametersNode" value="コントローラ設定" help="" />
+    <String name="ctrlPanelControllerStatusNode" value="コントローラ ステータス" help="" />
+    <String name="ctrlPanelDate" value="現在日時 : " />
+    <String name="ctrlPanelFreeDiskSpace" value="ディスク空き容量 : " />
+    <String name="ctrlPanelFreeMemory" value="メモリ空き容量 : " />
+    <String name="ctrlPanelFreeSramSpace" value="スラム空き容量 : " />
+    <String name="ctrlPanelIp" value="IPアドレス : " />
+    <String name="ctrlPanelIpConnector1" value="J204 IP アドレス : " />
+    <String name="ctrlPanelIpConnector2" value="J205 IP アドレス : " />
+    <String name="ctrlPanelLanguage" value="言語 : " help="" />
+    <String name="ctrlPanelMacAddr" value="MACアドレス : " />
+    <String name="ctrlPanelMaxManuCartSpeed" value="最大速度 : " help="手動モードの最大速度の変更"/>
+    <String name="crtlPanelMnuStatusExport" value="Exp." help="コントローラのステータスをログファイルに出力"/>
+    <String name="crtlPanelMnuConfigBackup" value="Bkup" help="コントローラのフルバックアップ"/>
+    <String name="ctrlPanelMonitorSpeed" value="モニターセンサー : " />
+    <String name="ctrlPanelRecorder" value="レコーダー : " />
+    <String name="ctrlPanelRemotePort" value="テレメンテナンス ポート : " help="SRSテレメンテナンスツール用 TCP通信ポート" />
+    <String name="ctrlPanelRobotNode" value="アームポジション" help="現在のポジションの表示" />
+    <String name="ctrlPanelRsiDisplay" value="RSI 7 セグメント 表示ユニット : " />
+    <String name="crtlPanelStatusExportMsg" value="システムステータスはログファイルに出力されました" />
+    <String name="ctrlPanelUnits" value="単位 : " />
+    <String name="errTitle" value="エラー " />
+    <String name="errorAppMnuSave" value="Exp." help="フロッピーにログファイルを出力" />
+    <String name="errorAppResultExportError" value="保存中のエラー" />
+    <String name="errorAppTitle" value="イベントログ" help="システムイベントとステータスの確認ユーティリティ" />
+    <String name="limitsArmEditTitle" value="アームリミット" help="" />
+    <String name="limitsCellEditTitle" value="セルリミット" help="" />
+    <String name="logExportPopup" value="フロッピーを挿入して下さい" />
+    <String name="loginMnuLock" value="Def." help="既定のプロファイルの切り替え" />
+    <String name="loginappCurrentUserName" value="カレントプロファイル : " help="カレントプロファイル名" />
+    <String name="loginappInvalidDefaultUserMsg" value="スタートプロファイルが見つかりません。インターフェースアクセスリミテーションがありません。" />
+    <String name="loginappInvalidPasswordMsg" value="無効なパスワード" />
+    <String name="loginappNewUserName" value="プロファイル : " />
+    <String name="loginappPassword" value="パスワード : " help="新しいプロファイルのログインパスワード" />
+    <String name="loginappTitle" value="プロファイルの選択" help="ログイン・スタートプロファイルの選択ページ" />
+    <String name="portdioAppTitle" value="入力／出力" help="システム入出力の表示と操作" />
+  </Resources>
+  <Resources name="EP" >
+    <String name="autoloadCancelled" value="VAL3アプリケーションの自動ロードのキャンセル (起動時のリカバリできないシステムエラー)" />
+    <String name="bptPageMnuAdd" value="Put" help="現在の命令にブレークポイントを設定" />
+    <String name="bptPageMnuDel" value="Del." help="選択されたブレークポイントの削除" />
+    <String name="bptPageMnuDelAll" value="All" help="全てのブレークポイントの削除" />
+    <String name="bptPageTitle" value="Breakpoints" help="アプリケーション一覧&apos;s breakpoints" />
+    <String name="cannotEditArrayNode" value="ノード配列は変更できません" />
+    <String name="cannotEditFlange" value="フランジは変更できません" />
+    <String name="cannotEditWorld" value="ワールドは変更できません" />
+    <String name="cannotMoveArrayNode" value="ノード配列は動きません" />
+    <String name="cannotMoveToJoint" value="このジョイントタイプは動きません" />
+    <String name="cannotMoveToPoint" value="このポイントタイプは動きません" />
+    <String name="cannotTeachArrayNode" value="ノード配列はティーチングできません" />
+    <String name="cannotTeachThisJoint" value="このジョイントタイプはティーチングできません" />
+    <String name="cannotTeachThisPoint" value="このポイントタイプはティーチングできません" />
+    <String name="cellDelFrameMsg" value="第一削除フレームとポイントがこのフレームにアタッチしました" />
+    <String name="cellDelFrameTitle" value="削除フレーム" />
+    <String name="cellDelToolMsg" value="第一削除ツールがこのツールにアタッチしました" />
+    <String name="cellDelToolTitle" value="削除 ツール" />
+    <String name="cellEditCloseDelay" value="Ctime  : " help="ツールが閉じるまでの遅延時間(秒)" />
+    <String name="cellEditDioName" value="Dio name: " help="デジタル出力の名前" />
+    <String name="cellEditOpenDelay" value="Otime  : " help="ツールが開くまでの遅延時間(秒)" />
+    <String name="cellEditToolTitle" value="Edit tool" help="パラメータを編集するツールです" />
+    <String name="cfgmanagerMenuDel" value="Del." help="" />
+    <String name="cfgmanagerMenuNew" value="New" help="" />
+    <String name="cfgmanagerMenuSave" value="Save" help="アプリケーションを保存します" />
+    <String name="dataAttributExport" value="属性 : " />
+    <String name="dataDim" value="配列要素数 : " help="配列の要素の数です。" />
+    <String name="dataErrorCreation" value="データを作成できません" />
+    <String name="dataErrorHeapFull" value="プロジェクトに空領域がありません&apos;s heap." />
+    <String name="dataMnuHere" value="Here" help="ツールの現在のポジションを記録します" />
+    <String name="dataMnuTeach" value="Teach" help="フレームのティーチング" />
+    <String name="dataName" value="名前 : " help="名前: 半角英数字(ｱﾝﾀﾞｰﾊﾞｰ _ も可)で12文字以内で入力してください。先頭文字は半角英字です。" />
+    <String name="dataPrivate" value="Private" />
+    <String name="dataPublic" value="Public" />
+    <String name="dataType" value="ﾀｲﾌﾟ :" />
+    <String name="dbgMnuBreakpoints" value="Bpts" help="全ブレークポイントの表示, 削除, 全削除, 追加" />
+    <String name="dbgMnuData" value="Data" help="選択された命令のデータを表示" />
+    <String name="dbgMnuSet" value="-&gt;*" help="選択されたラインへ移動, 全中間ラインを無視" />
+    <String name="dbgMnuStepInto" value="{*}" help="Step into: 現在の行を実行し、次の行でストップ（ノードやサブプロシージャ内にも移動）" />
+    <String name="dbgMnuStepOver" value="{}*" help="関数やサブプロシージャをスキップ" />
+    <String name="editMnuComment" value=";" help="選択行をコメントとして設定" />
+    <String name="editMnuCpy" value="Copy" help="マークされた行をクリップボードにコピー" />
+    <String name="editMnuCut" value="Cut" help="マークされた行をクリップボードに移動" />
+    <String name="editMnuDelInst" value="Del" help="マークされた行を削除" />
+    <String name="editMnuPaste" value="Pas." help="貼付 : 選択行の後にクリップボードの内容を貼付け" />
+    <String name="editMnuSaveRoutine" value="Save" help="アプリケーションを保存" />
+    <String name="errAddInstruction" value="System event SIN-ADD." />
+    <String name="errAllAppliRunning" value="開いているアプリケーションは全て実行されています" />
+    <String name="errCannotAddParameter" value="プロジェクト実行中はローカルやパラメータの追加はできません" />
+    <String name="errCannotChangeTypeOfInst" value="命令の型の変更はできません" />
+    <String name="errCannotDebugUnloadedPrj" value="閉じているライブラリのデバッグはできません" />
+    <String name="errCannotDeleteLibData" value="ライブラリのデータを削除できません" />
+    <String name="errCannotKillTask" value="%s リクエスト削除の応答がありません。削除を実行しますか？" />
+    <String name="errCannotModifyLibData" value="ライブラリのデータを変更できません" />
+    <String name="errCannotRemoveLibrary" value="ライブラリの消去はできません" />
+    <String name="errClpbrdCpy" value="System event CLP-CPY." />
+    <String name="errClpbrdPasteError" value="クリップボードに不正なデータがあります:" />
+    <String name="errCompile" value="不正な行" />
+    <String name="errDbgInternal" value="System event" />
+    <String name="errDbgTimeout" value="実行の停止(タイムアウト)" />
+    <String name="errEditData" value="この種類のデータは編集できません" />
+    <String name="errEditExternRoutine" value="このプログラムは編集できません" />
+    <String name="errExportFile" value="このファイルはエクスポートできません" />
+    <String name="errLibraryRename" value="ライブラリをリネームできません" />
+    <String name="errLocalArrayResize" value="ローカル配列はリサイズできません" />
+    <String name="errMemoryFull" value="メモリーがいっぱいです" />
+    <String name="errNoAppliRunning" value="アプリケーションは起動していません" />
+    <String name="errNotAnArray" value="配列がありません" />
+    <String name="errParameterResize" value="配列は値として渡せません (配列は値引渡しではなく、参照引渡しのみ可能)" />
+    <String name="errProjectStopping" value="アプリケーションは停止しています" />
+    <String name="errRenameStartStop" value="リネームできません" />
+    <String name="errRepInstruction" value="行を編集" />
+    <String name="errStartStopParameter" value="プログラムにパラメータがありません" />
+    <String name="errTitle" value="エラー" />
+    <String name="errUnlinkedFrame" value="このフレームは、アンロードされたライブラリのフレームへリンクしています" />
+    <String name="errUnlinkedPoint" value="このポイントは、アンロードされたライブラリのフレームへリンクしています" />
+    <String name="errUnlinkedTool" value="このツールは、アンロードされたライブラリのツールへリンクしています" />
+    <String name="errorDataDel" value="データを削除できません" />
+    <String name="errorDataRename" value="データをリネームできません" />
+    <String name="errorParamDel" value="パラメータを削除できません" />
+    <String name="insCommandNode" value="Instructions" help="" />
+    <String name="insErrorBuildRoutine" value="System event PRG-BLD" help="" />
+    <String name="insHistoryNode" value="History" help="" />
+    <String name="insMnuCommands" value="VAL3" help="VAL3の命令を選択" />
+    <String name="insMnuGlobals" value="Glo." help="グローバルデータを選択" />
+    <String name="insMnuHistory" value="His." help="実行された行を選択" />
+    <String name="insMnuIo" value="I/O" help="システムのデジタル入出力を選択" />
+    <String name="insMnuLocals" value="Loc." help="ローカル変数やパラメータを選択" />
+    <String name="insMnuRoutines" value="Prg." help="アプリケーションのプログラムを選択" />
+    <String name="insnodeCommentTitle" value="コメント" help="" />
+    <String name="insnodeDeleteTitle" value="行の削除" help="" />
+    <String name="insnodeInstructionsNode" value="命令" />
+    <String name="insnodeMnuInsertInstruction" value="Ins." help="選択された行の後に一行挿入" />
+    <String name="insnodeMnuMarkInstruction" value="Mark" help="選択された行をマーク" />
+    <String name="insnodeStepError" value="実行できません : タスクが停止していません。" />
+    <String name="insnodeVariablesTitle" value="変数" help="" />
+    <String name="jogStepMnuToggle" value="Step" help="トグルジョブ ステップモード ON/OFF" />
+    <String name="jogApproMnuToggle" value="Tog." help="トグルジョブ アプローチモード ON/OFF" />
+    <String name="jogApproNotAllow" value="ジョイントポジションへのアプローチは許可されていません" />
+    <String name="jogApproNotAllowTitle" value="アプローチ" />
+    <String name="jogApproOnOff" value="Appro:" />
+    <String name="jogParamPageTitle" value="Appro パラメータ" help="" />
+    <String name="jogApproTitle" value="Appro:" />
+    <String name="jogStepTitle" value="Step:" />
+    <String name="jogApproRx" value="Rx:" />
+    <String name="jogApproRy" value="Ry:" />
+    <String name="jogApproRz" value="Rz:" />
+    <String name="jogApproX" value="on X:" />
+    <String name="jogApproY" value="on Y:" />
+    <String name="jogApproZ" value="on Z:" />
+    <String name="jogFrame" value="Frame:" />
+    <String name="jogJointTitle" value="Joint" />
+    <String name="jogMnuParam" value="Apro" help="Approパラメータを入力" />
+    <String name="jogMnuMode" value="Mode" help="ポイントのムーヴモードを選択" />
+    <String name="jogMnuNew" value="New" help="ポイント･ジョイントの作成" />
+    <String name="jogMnuSelect" value="Sel." help="ジョブツールとフレームを選択" />
+    <String name="jogModeAlign" value="ALIGN" />
+    <String name="jogModeJoint" value="JOINT" />
+    <String name="jogModeLine" value="LINE" />
+    <String name="jogModeTitle" value="Mode:" />
+    <String name="jogPageTitle" value="ﾃｨｰﾁﾝｸﾞ" help="" />
+    <String name="jogPointTitle" value="Point" />
+    <String name="jogSelFrameErr" value="Not a frame !" />
+    <String name="jogSelFrameTitle" value="フレームの選択" help="フレームを選択し、OKを押して下さい" />
+    <String name="jogSelToolErr" value="Not a tool !" />
+    <String name="jogSelToolTitle" value="ツールの選択" help="ツールを選択し、OKを押して下さい" />
+    <String name="jogTool" value="Tool:" />
+    <String name="jogStepOnOff" value="ｽﾃｯﾌﾟ ﾓｰﾄﾞ: " />
+    <String name="jogStepValue" value="ｽﾃｯﾌﾟ 値: " />
+    <String name="jogStepShortcuts" value="ｼｮｰﾄｶｯﾄ ｷｰ &lt; &gt;" />
+    <String name="joint" value="Joint " />
+    <String name="libraryAddPageAliasTitle" value="識別子" help="" />
+    <String name="libraryAddPageTitle" value="ライブラリの追加" help="" />
+    <String name="libraryAttPageChangePathMnu" value="Chg." />
+    <String name="libraryAttPagePath" value="Library : " />
+    <String name="libraryAttPageTitle" value="属性" help="" />
+    <String name="libraryAttPageVal3Name" value="識別子 : " />
+    <String name="libraryAttPageAutoload" value="オートロード : " />
+    <String name="libraryAttPagePassword" value="パスワード : " />
+    <String name="libraryChangePathPageTitle" value="パスの切り替え" />
+    <String name="libraryErrorAdd" value="ライブラリの追加中にエラー" />
+    <String name="libraryMnuAdd" value="Add" help="" />
+    <String name="libraryMnuDel" value="Del." help="" />
+    <String name="libraryMnuRename" value="Ren." help="" />
+    <String name="libraryNodeName" value="ライブラリー" help="" />
+    <String name="libraryProtected" value="%s は暗号化されたライブラリです" />
+    <String name="libraryRemovePopup" value="%z はプロジェクト %s から削除されます" />
+    <String name="libraryRemoveTitle" value="ライブラリの削除" />
+    <String name="managerChoice" value="アプリケーションの選択" help="" />
+    <String name="managerErrorAppNotFound" value="アプリケーションが見つかりません, オートロードの一覧から削除されました。" />
+    <String name="managerErrorAutoload" value="オートロード エラー : " />
+    <String name="managerErrorAutostart" value="オートスタート エラー : " />
+    <String name="managerMenuLoad" value="Open" help="選択されたアプリケーションを開きます" />
+    <String name="managerMenuReload" value="Rld." help="アプリケーションの再ロード" />
+    <String name="managerMenuUnload" value="Clo." help="選択されたアプリケーションを閉じます" />
+    <String name="managerName" value="アプリケーションマネージャ" help="VAL3 アプリケーションの編集ユーティリティ" />
+    <String name="managerSuccessAutoload" value="open." />
+    <String name="mnuMoveJoint" value="Move" help="手動モードでジョイントポジションに移動" />
+    <String name="mnuMovePoint" value="Move" help="手動モードでポイントポジションに移動" />
+    <String name="modified" value=" 修正済" />
+    <String name="nodeErrorInvalidDataName" value="不正な名前。" />
+    <String name="nodeErrorParameterCreation" value="パラメータを作成できません" />
+    <String name="nodeLoadedPrj" value="Val3 アプリケーション" help="" />
+    <String name="nodeMnuInsert" value="Ins." help="選択されたエレメントの後に新しいエレメントを挿入" />
+    <String name="nodeMnuRename" value="Ren." help="データもしくはプログラムのリネーム" />
+    <String name="nodeNewDataTitle" value="データの追加" help="" />
+    <String name="nodeNewParameterTitle" value="パラメータの追加" help="" />
+    <String name="nodeParameterByReference" value="参照引渡し" />
+    <String name="nodeParameterByValue" value="値引渡し" />
+    <String name="nodeParameterPassage" value="引渡し :" />
+    <String name="nodeRenameDataTitle " value="新しい名前" help="" />
+    <String name="point" value="Point " />
+    <String name="prjMnuTerminal" value="Cmd." help="コマンドライン インターフェース" />
+    <String name="projectDateTimeFormat" value="%Y年 %m %d日, %H:%M" /> 
+    <String name="projectDeleteArrayItemPopup" value="配列から削除" />
+    <String name="projectDeleteArrayItemTitle" value="エレメントの削除" />
+    <String name="projectDeleteDataPopup" value="%s アプリケーションから削除されます %s" />
+    <String name="projectDeleteDataTitle" value="データの削除" />
+    <String name="projectDeletePopup" value=" 削除されます。" />
+    <String name="projectDeleteTitle" value="プロジェクトの削除" />
+    <String name="projectErrorConstruction" value="プロジェクトが作成できません" />
+    <String name="projectErrorIncompleteDelete" value="アプリケーションのデータの不完全な削除" />
+    <String name="projectErrorSavingProject" value="プロジェクトの保存中にエラー" />
+    <String name="projectErrorUnload" value="閉じれません。" />
+    <String name="projectGlobalData" value="グローバル データ" help="アプリケーションの操作&apos;s global data" />
+    <String name="projectLoadAutoload" value="ｵｰﾄﾛｰﾄﾞ" />
+    <String name="projectLoadAutostart" value="ｵｰﾄｽﾀｰﾄ" />
+    <String name="projectLoadManual" value="ﾏﾆｭｱﾙ" />
+    <String name="projectLoadMnuMode" value="Mode" help="アプリケーションの選択&apos;s 起動時のオープンモード" />
+    <String name="projectMnuSaveAs" value="Exp." help="選択されたアプリケーションまたは他のロケーションにエクスポートされたアプリケーションのリネーム" />
+    <String name="projectNewMsg" value="注意 : この名前のアプリケーションは削除されます。" />
+    <String name="projectNewTitle" value="新しいアプリケーション" />
+    <String name="projectNodeConfig" value="パラメータ" help="アプリケーションのグローバルパラメータ" />
+    <String name="projectNodeHeapSize" value="データメモリー" help="空メモリ (bytes) はアプリケーション&apos;s やグローバルデータを保存するために使用されます" />
+    <String name="projectNodeStackSize" value="ランタイムメモリー: " help=" 利用可能のメモリ (bytes) はVAL3タスクのローカルデータやサブプログラムに使用されています" />
+    <String name="projectNodeUnits" value="単位 : " help="単位はアプリケーションのVAL3構造体に使用されています" />
+    <String name="projectSaveasMsg" value="注意 : 他のアプリケーションを上書きします" />
+    <String name="projectSaveasTitle" value="エクスポート" />
+    <String name="projectTemplate" value="テンプレート : " />
+    <String name="projectUnloadPopup" value="アプリケーションの変更を保存して閉じます" />
+    <String name="projectUnloadSaveWithoutRights" value="このユーザはアプリケーションの保存を許可されていません" />
+    <String name="projectUnloadTitle" value="アプリケーションを閉じる" />
+    <String name="projectWarningUnitsDiffer" value="プロジェクトの単位がシステムの単位と異なります" />
+    <String name="reloadAlsoLibraries" value="プロジェクトの全てのライブラリを再ロードしますか ?" />
+    <String name="reloadAlsoLibrariesTitle" value="ライブラリの再ロード" help="「いいえ」なら、このプロジェクトのデータとプログラムのみが再ロードされます。「はい」なら、このプロジェクトで使用されているライブラリのデータとプログラムも再帰的に再ロードされます。" />
+    <String name="reloadError" value="ﾌﾟﾛｼﾞｪｸﾄ %s は再ﾛｰﾄﾞできません." />
+    <String name="routineAttributExport" value="属性 :  " />
+    <String name="routineDeletePopup" value="%z はプロジェクト %s から削除されます" />
+    <String name="routineDeleteTitle" value="プログラムの削除" />
+    <String name="routineErrorAttribute" value="ルーティン属性を変更できません" />
+    <String name="routineErrorCreate" value="プログラム作成中のエラー" />
+    <String name="routineErrorDel" value="ルーティンを削除できません" />
+    <String name="routineLocalData" value="ローカルデータ" help="プログラム一覧&apos;s local data" />
+    <String name="routineMnuEdit" value="Edit" help="" />
+    <String name="routineMnuRef" value="Ref&amp;" help="スイッチパラメータの引渡しモード : 値引渡し・参照引渡し" />
+    <String name="routineName" value="Name : " />
+    <String name="routineNewTitle" value="新しいプログラム名" help="" />
+    <String name="routineNode" value="プログラム" help="アプリケーション一覧&apos;s programs" />
+    <String name="routineParameters" value="パラメータ" help="プログラム一覧&apos;s call parameters" />
+    <String name="routinePrivate" value="Private" />
+    <String name="routinePublic" value="Public" />
+    <String name="routineRenameTitle " value="New name" help="" />
+    <String name="runAppError" value="他のアプリケーションが既に起動しています。それを停止してから、アプリケーションを開始してください。" />
+    <String name="selectStart" value="アプリケーション起動" help="開いているVAL3アプリケーション一覧" />
+    <String name="selectStop" value="アプリケーションの停止" help="" />
+    <String name="sinRcDataAlreadyExists" value="同じ名前のデータが既に存在しています" />
+    <String name="sinRcDataBusy" value="データはプログラム内で他の用途に使われています" />
+    <String name="sinRcDataInvalidName" value="データの名前が不正です" />
+    <String name="sinRcDataInvalidSize" value="配列要素のインデックスは正数でなければなりません" />
+    <String name="sinRcDataNotAnArray" value="データは配列ではありません" />
+    <String name="sinRcDataNotFound" value="データが見つかりませんでした" />
+    <String name="sinRcIdentifierAlreadyExists" value="識別子は既に存在しています" />
+    <String name="sinRcIdentifierInvalidName" value="識別子の名前が不正です" />
+    <String name="sinRcLibraryAlreadyExists" value="ライブラリはプロジェクトに既に存在しています。" />
+    <String name="sinRcLibraryBusy" value="ライブラリはプログラム内でほかの用途に使われています" />
+    <String name="sinRcLibraryInvalidName" value="ライブラリの名前が不正です" />
+    <String name="sinRcMemoryFull" value="メモリがいっぱいです" />
+    <String name="sinRcProjectAlreadyEnding" value="アプリケーションは既に終了しています" />
+    <String name="sinRcProjectAlreadyExists" value="同じ名前のアプリケーションが既に存在しています" />
+    <String name="sinRcProjectAlreadyRunning" value="アプリケーションは既に起動しています" />
+    <String name="sinRcProjectBusy" value="アプリケーション起動中" />
+    <String name="sinRcProjectCodeError" value="プログラム エラー(イベントログ参照)" />
+    <String name="sinRcProjectDataError" value="データのエラー(イベントログ参照)" />
+    <String name="sinRcProjectDefaultStackTooSmall" value="ランタイムメモリが小さすぎます(アプリケーションのパラメータを変更してください)" />
+    <String name="sinRcProjectFileError" value="ディレクトリもしくはファイルが作成できません" />
+    <String name="sinRcProjectFilemanagerNotFound" value="ロケーションが見つかりません" />
+    <String name="sinRcProjectInconsistantResolvedSymbol" value="データタイプもしくはプログラムヘダーがライブラリの宣言部と一致していません" />
+    <String name="sinRcProjectInvalidDestructor" value="パラメータは stop() program で許可されていません" />
+    <String name="sinRcProjectInvalidMain" value="パラメータは start() program で許可されていません" />
+    <String name="sinRcProjectInvalidName" value="アプリケーションの名前が不正です" />
+    <String name="sinRcProjectInvalidProject" value="不正なアプリケーション : call()もしくは命令内のプログラムパラメータをチェックして下さい" />
+    <String name="sinRcProjectLibraryError" value="ライブラリをロードできません" />
+    <String name="sinRcProjectLocked" value="システムイベント APP-LCK" />
+    <String name="sinRcProjectNoDestructor" value="stop() program がアプリケーション内に見つかりません" />
+    <String name="sinRcProjectNoMain" value="start() program がアプリケーション内に見つかりません" />
+    <String name="sinRcProjectUnresolvedSymbol" value="全ての定義済みデータとプログラムがライブラリ内に見つかりませんでした" />
+    <String name="sinRcRoutineAlreadyExists" value="同じ名前のプログラムが既に存在しています" />
+    <String name="sinRcRoutineBusy" value="プログラムはほかのプログラムでほかの用途で呼び出されています" />
+    <String name="sinRcRoutineInvalidName" value="プログラムの名前が不正です" />
+    <String name="sinRcRoutineInvalidParamPosition" value="予期しないパラメータ" />
+    <String name="sinRcRoutineNameTooLong" value="プログラムの名前が長すぎます" />
+    <String name="sinRcRoutineNotFound" value="プログラムが見つかりませんでした" />
+    <String name="srlRcProjectPoolInconsistentIoInfo" value="インターナルエラー(不正な io 配列)" />
+    <String name="startAppTitle" value="Start appli" help="アプリケーションの開始" />
+    <String name="stopAppTitle" value="Stop appli" help="アプリケーションの停止" />
+    <String name="stopApp" value="注意 ! アプリケーションが停止します。" />
+    <String name="teached" value=" ﾃｨｰﾁﾝｸﾞしました" />
+    <String name="tskmanDebugTitle" value="デバッグ" help="段階的にVAL3プログラムを実行するユーティリティ" />
+    <String name="tskmanErrorLockedTask" value="デバッグできません (タスクがロックされています)。" />
+    <String name="tskmanErrorRunningTask" value="デバッグできません (タスクがロックされています)。" />
+    <String name="tskmanInfoCurrentCycletime" value="測定サイクルタイム (ms) : " />
+    <String name="tskmanInfoMaxCycletime" value="最長サイクルタイム (ms) : " />
+    <String name="tskmanInfoNbOverrun" value="オーバーラン : " />
+    <String name="tskmanInfoWantedCycletime" value="指定サイクルタイム (ms) : " />
+    <String name="tskmanKillTaskPopup" value="削除されます" />
+    <String name="tskmanKillTaskTitle" value="タスク削除" />
+    <String name="tskmanMnuDebug" value="Dbg." help="休止 &amp; 選択されたタスクのデバッグ" />
+    <String name="tskmanMnuInfo" value="Info" help="" />
+    <String name="tskmanMnuKill" value="Kill" help="選択されたタスクの削除" />
+    <String name="tskmanMnuResume" value="Rsm." help="選択されたタスクの再開" />
+    <String name="tskmanMnuSuspend" value="Sus." help="選択されたタスクの休止" />
+    <String name="tskmanName" value="タスクマネージャ" help="トラックユーティリティ &amp; VAL3タスクのデバッグ開始" />
+    <String name="tskmanTitle" value="Name         State      Appli    Pri Err" />
+    <String name="userappTitle" value="アプリケーションインターフェース" help="VAL3アプリのMan-machine インターフェース" />
+    <String name="warning" value="警告！" />
+    <String name="warningDetected" value=" 警告を検出しました。イベントログを参照して下さい" />
+    <String name="warningMotion" value="警告モーション" />
+    <String name="warningMotionReset" value="モーションをリセットしますか？" />
+  </Resources>
+  <Resources name="SRL" >
+    <String name="appStarted" value="アプリケーションの開始" />
+    <String name="appStopped" value="アプリケーションの停止" />
+    <String name="cannotCreate" value="作成できません " />
+    <String name="errorFile" value="ファイル" />
+    <String name="errorLine" value="行" />
+    <String name="ioNotLinked" value="リンクなし" />
+    <String name="nameAlreadyUsed" value="この名前はアプリケーション内で既に使われています" />
+    <String name="resetMotionWithStop" value="ｱﾌﾟﾘｹｰｼｮﾝは終了しました.未実行のﾓｰｼｮﾝはｷｬﾝｾﾙされました." />
+    <String name="runtimeErr000NoError" value="ランタイムエラーではありません" />
+    <String name="runtimeErr010DivZero" value="不正な数値計算です(０で除算)" />
+    <String name="runtimeErr011Num" value="不正な数値計算です(不正な値)" />
+    <String name="runtimeErr020IndOverflow" value="範囲外の添字です &apos;s size." />
+    <String name="runtimeErr021IndUnderflow" value="負数の添字へのアクセス" />
+    <String name="runtimeErr029TaskInvalidName" value="不正なタスク名" />
+    <String name="runtimeErr030TaskNotFound" value="タスクが存在していません" />
+    <String name="runtimeErr031TaskNameAlreadyUsed" value="タスクの名前は既に使われています" />
+    <String name="runtimeErr032TaskNbSyncReached" value="同期タスクは2つまでしかサポートされていません。タスクスケジュールを変更してください。" />
+    <String name="runtimeErr040HeapOverflow" value="データメモリが足りません。アプリケーションが使うメモリを増やしてください。&apos;s parameters." />
+    <String name="runtimeErr041StackOverflow" value="ランタイムメモリが足りません。アプリケーションが使うメモリを増やしてください。&apos;s parameters,その後アプリケーションを再起動してください" />
+    <String name="runtimeErr050DataAlreadyExists" value="この名前は既に使われています" />
+    <String name="runtimeErr060OperationTimeout" value="命令がタイムアウト" />
+    <String name="runtimeErr061InternalError" value="VAL3 インタープリタエラー。アフターサービスに連絡してください。" />
+    <String name="runtimeErr070InvalidParameterValue" value="命令パラメータの値が不正です。VAL3リファレンスマニュアルを参照してください。" />
+    <String name="runtimeErr080UseUnresolvedExtern" value="未解決のエクスターナルシンボルの使用" />
+    <String name="runtimeErr081IncompatibleKinematic" value="接続アームに無効なデータ" />
+    <String name="runtimeErr082UseRefToUnreacheableExtern" value="未定義のエクスターナルシンボルのリファレンスを使用" />
+    <String name="runtimeErr090InvalidResumeOperation" value="行の命令はtaskResume()として明示されていません" />
+    <String name="runtimeErr100InvalidVel" value="&apos;vel&apos; mdesc のフィールドが負数もしくは大きすぎます" />
+    <String name="runtimeErr101InvalidAccel" value="&apos;accel&apos; mdesc のフィールドが負数もしくは大きすぎます" />
+    <String name="runtimeErr102InvalidDecel" value="&apos;decel&apos; mdesc のフィールドが負数もしくは大きすぎるか、&apos;vel&apos; field よりも小さいです" />
+    <String name="runtimeErr103InvalidTvel" value="&apos;tvel&apos; mdescのフィールドが負数もしくは大きいです" />
+    <String name="runtimeErr104InvalidRvel" value="&apos;rvel&apos; mdescのフィールドが負数もしくは大きすぎです" />
+    <String name="runtimeErr105InvalidDreach" value="&apos;reach&apos; mdescのフィールドが負数です" />
+    <String name="runtimeErr106InvalidDleave" value="&apos;leave&apos; mdescのフィールドが負数です" />
+    <String name="runtimeErr122IoChannelInvalidOperation" value="入力に書き込めません" />
+    <String name="runtimeErr123IoChannelNotConnected" value="IO がハードウェア入出力にリンクしていません" />
+    <String name="runtimeErr124IoChannelProtected" value="ロボットのインターナル入出力にアクセスできません" />
+    <String name="runtimeErr125IoChannelHwAccess" value="入出力から応答がありません" />
+    <String name="runtimeErr150MotionError" value="ロボットは直前の無効な動作で停止しました (リーチ外のターゲット、不正なアーム設定、稀な動作)" />
+    <String name="runtimeErr153MotionInternalError" value="サポート外の動作命令です" />
+    <String name="runtimeErr154MotionParameterError" value="不正な動作命令です : 不正な目標ポイントもしくはmdesc。" />
+    <String name="runtimeErr160InvalidFlange" value="ツールの座標 &lt;flange&gt; は修正されました" />
+    <String name="runtimeErr161InvalidWorld" value="ツールの座標 &lt;world&gt; は修正されました" />
+    <String name="runtimeErr162PointNotLinked" value="ポイントは参照フレームにリンクしていません。VAL3リファレンスマニュアルを参照。" />
+    <String name="runtimeErr163FrameNotLinked" value="フレームは参照フレームにリンクしていません。VAL3リファレンスマニュアルを参照。" />
+    <String name="runtimeErr164ToolNotLinked" value="ツールは参照ツールにリンクしていません。VAL3リファレンスマニュアルを参照。" />
+    <String name="runtimeErr165InvalidLink" value="グローバルフレーム, ポイントもしくはツールをローカルデータにリンクできません" />
+    <String name="runtimeErr170InvalidMobileChain" value="モバイルフレームから他のモバイルフレームへのリンクはできません" />
+    <String name="runtimeErr171FrameNotMobile" value="このフレームはモバイルフレームとして定義されていません" />
+    <String name="runtimeErr200IpConnectionFailed" value="ネットワーク接続に失敗しました。" />
+    <String name="runtimeErr250TrialTimeElapsed" value="トライアルタイムが経過しました" />
+    <String name="runtimeErr270InvalidFilePath" value="Invalid file path" />
+    <String name="runtimeErr271CannotReadFile" value="Cannot read file" />
+    <String name="runtimeErr290InvalidTrajId" value="Invalid trajectory Id" />
+    <String name="runtimeErr999OtherSeeLogger" value="See events logger for more information." />
+    <String name="runtimeErrDefaultMessage" value="ランタイムエラー診断のためVAL3リファレンスマニュアルをご覧下さい。" />
+    <String name="runtimeErrorMsg" value="VAL3 ランタイムエラー" />
+    <String name="stopMsg" value="動作コマンドのキャンセル中" />
+  </Resources>
+  <Resources name="SIN" >
+    <String name="alreadyExist" value="既に存在しています" />
+    <String name="alreadyExistAsGlobal" value="この名前はグローバルデータとして既に存在しています" />
+    <String name="ambiguousExpression" value="あいまいな表現です" />
+    <String name="argumentsNotAllowed" value="この引数は許可されていません" />
+    <String name="arrayOverflow" value="配列オーバーフロー" />
+    <String name="assignNotAllowedInNestedExpression" value="この演算子 &apos;=&apos; は、ネスとされた中では許可されていません" />
+    <String name="compilationError" value="ロードできません (エラーファイルをご覧下さい)" />
+    <String name="configError" value="設定エラー" />
+    <String name="data" value="データ" />
+    <String name="dataCorrupted" value="破損データ (不明なフィールド) " />
+    <String name="differentTypes" value="case句に異なる型のデータが含まれています" />
+    <String name="doNotMatch" value="一致しません" />
+    <String name="duplicatedArrayItem" value="配列の要素が重複しました" />
+    <String name="duplicatedEnd" value="&apos;begin&apos; は既に &apos;end&apos; を持っています" />
+    <String name="duplicatedFile" value="ファイルが重複しました" />
+    <String name="endOfLine" value="最終行" />
+    <String name="error" value="エラー" />
+    <String name="file" value="ファイル" />
+    <String name="fileCannotOpen" value="不正なファイル" />
+    <String name="fileNotFound" value="ファイルが見つかりません" />
+    <String name="found" value="見つかりました" />
+    <String name="functionUndefined" value="未定義の関数です" />
+    <String name="heapOverflow" value="データメモリがオーバーフローしました" />
+    <String name="indexNotAllowed" value="この文脈ではインデックスは有効ではありません" />
+    <String name="indexRequired" value="配列インデックスが必要です" />
+    <String name="internalCompilerError" value="内部コンパイラエラー" />
+    <String name="invalidBinaryOperator" value="無効なバイナリ演算子" />
+    <String name="invalidCasePosition" value="case句が不正です" />
+    <String name="invalidFieldName" value="無効なファイル名" />
+    <String name="invalidFunctionType" value="この命令は期待されたデータタイプを返しませんでした。" />
+    <String name="invalidHeapSize" value="無効なデータメモリのサイズです" />
+    <String name="invalidLibrary" value="無効なライブラリもしくは間違ったパスワードです。" />
+    <String name="invalidZipLibrary" value="%s : 無効な ZIP ライブラリ" />
+    <String name="invalidLibraryIdent" value="無効なライブラリ識別子です" />
+    <String name="invalidName" value="無効な名前です" />
+    <String name="invalidOperator" value="無効な演算子です" />
+    <String name="invalidOperatorType" value="この演算子は期待されたデータタイプを返しませんでした" />
+    <String name="invalidParameterType" value="無効なパラメータタイプです" />
+    <String name="invalidParameterValue" value="無効なパラメータの値です" />
+    <String name="invalidRoutineCall" value="無効なパラメータです。" />
+    <String name="invalidSeparator" value="無効なセパレータです" />
+    <String name="invalidSwitchStructure" value="Switch構文が不正です.default句の後ではcase句は使用できません."/>
+    <String name="invalidType" value="無効なタイプです" />
+    <String name="invalidUnaryOperator" value="ここでは無効な演算子です" />
+    <String name="invalidValue" value="無効な値です" />
+    <String name="libraryAlreadyUsed" value="インターフェースは既にエイリアスで使われています" />
+    <String name="line" value="行" />
+    <String name="lineCorrupt" value="行が破損しています" />
+    <String name="lineTooLong" value="行が長すぎます" />
+    <String name="linkDataCorrupted" value="リンクしたデータ %s が破損しています" />
+    <String name="linkedDataNotFound" value="リンクしたデータ %s が見つからないか、型が一致しないか、インデックスがオーバーフローしました" />
+    <String name="memoryFull" value="システムメモリーがいっぱいです" />
+    <String name="missing" value="ありません" />
+    <String name="missingAlias" value="ライブラリ識別子がありません" />
+    <String name="missingAliasToken" value="トークン &lt;識別子&gt; がありません" />
+    <String name="missingBegin" value="キーワードがありません : &apos;begin&apos;" />
+    <String name="missingCloseBracket" value="括弧がありません &apos;]&apos;" />
+    <String name="missingCloseParenthesis" value="括弧がありません &apos;)&apos;" />
+    <String name="missingCloseStruct" value="括弧がありません &apos;}&apos;" />
+    <String name="missingCode" value="プログラムにVAL3コードが見つかりません" />
+    <String name="missingCondition" value="条件文がありません" />
+    <String name="missingEnd" value="キーワードがありません: &apos;end&apos;" />
+    <String name="missingEqual" value="&apos;for&apos;のあとに&apos;=&apos;がありません" />
+    <String name="missingHeadQuote" value="文字列の先頭に \&quot; がありません" />
+    <String name="missingIdentifiant" value="識別子がありません" />
+    <String name="missingLibraryName" value="ライブラリ名がありません" />
+    <String name="missingLvalue" value="変更可能なオブジェクトが必要です" />
+    <String name="missingOpenParenthesis" value="括弧がありません &apos;(&apos;" />
+    <String name="missingOperator" value="演算子がありません" />
+    <String name="missingParameter" value="パラメータがありません" />
+    <String name="missingRoutine" value="プログラムがありません" />
+    <String name="missingSwitch" value="&apos;switch&apos; がありません" />
+    <String name="missingTest" value="テスト状況は期待通りです。&apos;==&apos;という意味ですか？" />
+    <String name="missingTo" value="&apos;to&apos; は期待通りです" />
+    <String name="missingTokenProc" value="&apos;procedure&apos; トークンがありません" />
+    <String name="missingTrailQuote" value="後続文字列 \&quot; がありません" />
+    <String name="missingType" value="タイプがありません" />
+    <String name="missingVal3" value="VAL3の記述がありません" />
+    <String name="nameTooLongError" value="名前が長すぎます" />
+    <String name="noEffect" value="コードの行は効果がありません" />
+    <String name="noFunctionError" value="不明な命令です" />
+    <String name="noLocalDataAllowed" value="この文脈に許可されたローカルデータがありません！" />
+    <String name="noName" value="明示的な名前がありません" />
+    <String name="noOpForType" value="この演算子は、これらのデータ型には無効もしくはサポートされていません" />
+    <String name="noProjectDefined" value="定義されたアプリケーションがありません" />
+    <String name="noTypeMatchExpression" value="この表現に調和する型がありません" />
+    <String name="notAStruct" value="構造型が必要です" />
+    <String name="oneDefaultCaseAllowed" value="case句にdefaultは一つしか許可されていません" />
+    <String name="prjCantSave" value="プロジェクトを保存できません" />
+    <String name="required" value="必須" />
+    <String name="reservedWord" value="予約語 : " />
+    <String name="routineBusy" value="プログラム ビジー" />
+    <String name="routineNameUsedError" value="プログラム名は既に使われています" />
+    <String name="routineUndefined" value="未定義のプログラムです" />
+    <String name="runtimeError" value="ランタイムエラー" />
+    <String name="runtimeErrorNbr" value="データ初期化中のランタイムエラー %d " />
+    <String name="runtimeStackOverflow" value="ランタイムメモリーがオーバーフローしました" />
+    <String name="stepRequired" value="&apos;Step&apos; キーワードが必要です" />
+    <String name="stringTooLong" value="文字列が長すぎます" />
+    <String name="syntaxError" value="シンタックスエラー" />
+    <String name="systemMemoryFull" value="メモリーがいっぱいです" />
+    <String name="taskIdle" value="非アクティブ" />
+    <String name="taskRunning" value="アクティブ" />
+    <String name="taskStopped" value="停止" />
+    <String name="taskTransition" value="トランジッション" />
+    <String name="toMissing" value="&apos;to&apos; がありません" />
+    <String name="tooManyCaseCondition" value="&apos;case&apos; ステートメントが多すぎます" />
+    <String name="tooManyFields" value="&apos;}&apos; が予想されます（このデータ型にはフィールドが多すぎます）" />
+    <String name="tooManyNestedExpressions" value="ネストできる最大数に達しました" />
+    <String name="tooManyParameters" value="パラメータが多すぎます" />
+    <String name="twoUnaryOp" value="２つの連続する単一演算子（括弧を使ってください）" />
+    <String name="typeDoesNotMatch" value="この型はswitchステートメントでは使用できません" />
+    <String name="typeNotLinked" value="この型はリンクをサポートしていません" />
+    <String name="typeRoot" value="型 %s は既に root:%s を持っています" />
+    <String name="typeUndefined" value="未定義の型です" />
+    <String name="undefined" value="未定義です" />
+    <String name="undefinedField" value="未定義の構造フィールドです" />
+    <String name="unexpectedCharacters" value="識別子に予想されていない文字があります" />
+    <String name="unexpectedIdentifier" value="この名前もしくはキーワードは、存在しないか無効です" />
+    <String name="unexpectedReference" value="このコンテキストでは、参照 &apos;&amp;&apos; の使用は無効です" />
+    <String name="unexpectedToken" value="このコンテキストでは無効なキーワードです" />
+    <String name="unexpectedTrailingChars" value="予期されない後続文字です" />
+    <String name="unlinkedBegin" value="&apos;end&apos;なしの&apos;begin&apos;" />
+    <String name="unlinkedBreak" value="&apos;case&apos;なしの&apos;break&apos;" />
+    <String name="unlinkedCase" value="&apos;break&apos;なしの&apos;case&apos;" />
+    <String name="unlinkedDo" value="&apos;until&apos;なしの&apos;do&apos;" />
+    <String name="unlinkedElse" value="&apos;endIf&apos;なしの&apos;else&apos;" />
+    <String name="unlinkedElseIf" value="&apos;endIf&apos;なしの&apos;elseIf&apos;" />
+    <String name="unlinkedEnd" value="&apos;begin&apos;なしの&apos;end&apos;" />
+    <String name="unlinkedEndFor" value="&apos;for&apos;なしの&apos;endFor&apos;" />
+    <String name="unlinkedEndIf" value="&apos;if&apos;なしの&apos;endIf&apos;" />
+    <String name="unlinkedEndSwitch" value="&apos;switch&apos;なしの&apos;endSwitch&apos;" />
+    <String name="unlinkedEndWhile" value="&apos;while&apos;なしの&apos;endWhile&apos;" />
+    <String name="unlinkedFor" value="&apos;endFor&apos;なしの&apos;for&apos;" />
+    <String name="unlinkedIf" value="&apos;endIf&apos;なしの&apos;if&apos;" />
+    <String name="unlinkedSwitch" value="&apos;endSwitch&apos;なしの&apos;switch&apos;" />
+    <String name="unlinkedUntil" value="&apos;do&apos;なしの&apos;until&apos;" />
+    <String name="unlinkedWhile" value="&apos;endWhile&apos;なしの&apos;while&apos;" />
+    <String name="unresolvedExtSymbol" value="未解決の外部シンボルです" />
+    <String name="unterminatedStringError" value="完結していない文字列です" />
+  </Resources>
+  <Resources name="SCC" >
+    <String name="accessCurrentUserName" value="カレント プロファイル : " help="アクセスコントロールのインターフェース用のカレントプロファイルの名前" />
+    <String name="accessDefaultUserName" value="スタート プロファイル : " help="再起動後に使用するプロファイル" />
+    <String name="accessEditDefaultUserPageTitle" value="編集" help="カレントもしくはスタートプロファイルを変更します" />
+    <String name="accessNodeTitle" value="アクセス コントロール" help="" />
+    <String name="accessPageInvalidPasswordMsg" value="無効なパスワード" />
+    <String name="accessPagePasswordEdit" value="パスワード : " help="新しいプロファイルのログインパスワード" />
+    <String name="accessPageUserNameEdit" value="プロファイル : " />
+    <String name="appGlobalStatusNoErrMsg" value="全てのデバイスは正常です" />
+    <String name="appGlobalStatusTitle" value="エラー" />
+    <String name="appNodeStartTcpPopup" value="フィールドバスは再設定されます" />
+    <String name="applicomInfoPageTitle" value="インフォメーション" />
+    <String name="applicomInitTcpErrorMsg" value="エラー" />
+    <String name="applicomInitTcpRebootMsg" value="フィールドバスの設定の更新のため再起動して下さい" />
+    <String name="applicomNoError" value="OK" />
+    <String name="applicomPortInfo" value="デバイス ステータス : " />
+    <String name="dateApril" value="4月" />
+    <String name="dateAugust" value="8月" />
+    <String name="dateAutomatic" value="自動 : " />
+    <String name="dateDay" value="日 : " />
+    <String name="dateDecember" value="12月" />
+    <String name="dateEditTitle" value="日時の更新" help="日時の更新をします" />
+    <String name="dateError" value="曜日の設定が不正です" />
+    <String name="dateFebruary" value="2月" />
+    <String name="dateGmt" value="Gmt : " />
+    <String name="dateHour" value="時 : " />
+    <String name="dateJanuary" value="1月" />
+    <String name="dateJuly" value="7月" />
+    <String name="dateJune" value="6月" />
+    <String name="dateMarch" value="3月" />
+    <String name="dateMay" value="5月" />
+    <String name="dateMinute" value="分 : " />
+    <String name="dateMonth" value="月 : " />
+    <String name="dateMonthAbb0" value="1月." />
+    <String name="dateMonthAbb1" value="2月." />
+    <String name="dateMonthAbb2" value="3月." />
+    <String name="dateMonthAbb3" value="4月." />
+    <String name="dateMonthAbb4" value="5月." />
+    <String name="dateMonthAbb5" value="6月." />
+    <String name="dateMonthAbb6" value="7月." />
+    <String name="dateMonthAbb7" value="8月." />
+    <String name="dateMonthAbb8" value="9月." />
+    <String name="dateMonthAbb9" value="10月." />
+    <String name="dateMonthAbba" value="11月." />
+    <String name="dateMonthAbbb" value="12月." />
+    <String name="dateNovember" value="11月" />
+    <String name="dateOctober" value="10月" />
+    <String name="dateSeptember" value="9月" />
+    <String name="dateServerError" value="サーバーに届きません" />
+    <String name="dateServerIp" value="ｻｰﾊﾞｰ IP : " />
+    <String name="dateTimeFormat" value="%Y年 %m %d日, %H:%M:%S" />
+    <String name="dateYear" value="年 : " />
+    <String name="dioApplicomAnalogInputTitle" value="アナログ入力" help="" />
+    <String name="dioApplicomAnalogOutputTitle" value="アナログ出力" help="" />
+    <String name="dioApplicomDigitalInputTitle" value="デジタル入力" help="" />
+    <String name="dioApplicomDigitalOutputTitle" value="デジタル出力" help="" />
+    <String name="dioApplicomNode" value="アプリコム" help="" />
+    <String name="dioCtrlNode" value="コントローラ" help="" />
+    <String name="dioCtrlNodeExportMsgError" value="エクスポート中のエラー" />
+    <String name="dioCtrlNodeExportPopup" value="フロッピーを挿入してください" />
+    <String name="dioCtrlNodeImportConfirmMsg" value="警告!セルの設定(I/O, IP アドレス...)は再起動後に変更されます" />
+    <String name="dioCtrlNodeImportMsg" value="システムセルの設定の更新のため再起動してください" />
+    <String name="dioCtrlNodeImportMsgError" value="インポート中のエラー" />
+    <String name="dioPageError" value="DIOではありません!" />
+    <String name="dioPageTitle" value="DIOを選択してください" help="" />
+    <String name="dioProgramTbuttonsAccessDenied" value="あなたのプロファイルは (1) (2) (3) キーのプログラムを許可されていません" />
+    <String name="dioRenameMsg" value="名前変更のため、すべてのアプリケーションをアンロードし再読込みして下さい" />
+    <String name="dioRenameWarningTitle" value="警告" />
+    <String name="dioToggleAccessDenied" value="あなたのプロファイルは出力を修正することは許可されていません" />
+    <String name="diskMemoryUnitsMegaBytes" value=" Kb" />
+    <String name="drive" value="ドライブ" />
+    <String name="driveErrBusOverVoltage" value=" BusOverVoltage  バス電圧超過" />
+    <String name="driveErrBusUnderVoltage" value=" BusUnderVoltage バス電圧不足" />
+    <String name="driveErrCurrentSensorNoise" value=" CurrentSensorNoise センサーノイズ過多" />
+    <String name="driveErrCurrentSensorOffset" value=" CurrentSensorOffset  センサーオフセット異常" />
+    <String name="driveErrDspNotReady" value=" DspNotReady 画面が準備できませんでした" />
+    <String name="driveErrHardwareFault" value=" HighPowerStillOn 高電源がOnになったままです" />
+    <String name="driveErrIpmFault" value=" IpmFault Ipmエラー" />
+    <String name="driveErrNoCompensation" value=" NoValidCompensation 補正値がありません" />
+    <String name="driveErrOverSpeed" value=" OverSpeed スピード超過" />
+    <String name="driveErrOverTemperature" value=" DriveOverTemperature ドライブ温度の超過" />
+    <String name="driveErrPllNotLocked" value=" CommunicationErrorPllNotLocked 通信エラー PLLがロックされていません" />
+    <String name="driveErrPosError" value=" PositionError ポジションエラー" />
+    <String name="driveErrPosIncoherence" value=" PositionIncoherence 非干渉ポジション" />
+    <String name="driveErrPowerBoard" value=" PowerBoardNotDefined 電源ボードが定義されていません" />
+    <String name="driveErrSsiNotSynchState" value=" SsiIsNotInSynchronousState Ssiが同期状態にありません" />
+    <String name="driveErrWatchdog" value=" WatchdogOrOverrunOrVoltageSupervisor ウォッチドッグまたはオーバーランまたは電圧監視機能" />
+    <String name="driveInfoPageTitle" value="ステータス" />
+    <String name="driveStatusDisabled" value="無効" />
+    <String name="driveStatusDisabling" value="無効中" />
+    <String name="driveStatusEnabled" value="有効" />
+    <String name="driveStatusEnabling" value="有効中" />
+    <String name="driveStatusFault" value="エラー" />
+    <String name="driveStatusWarning" value="警告" />
+    <String name="drivesNodeTitle" value="ドライブ情報" help="" />
+    <String name="driveWarningDriveFoldback" value=" DriveFoldback ドライブフォールドバック" />
+    <String name="driveWarningLoggerFull" value=" FaultLogIsFull エラーログがいっぱいです" />
+    <String name="driveWarningMotorFoldback" value=" MotorFoldback モーターフォールドバッグ" />
+    <String name="errHardwareError" value="シリアルポート エラー" />
+    <String name="errInvalidName" value="不正な名前" />
+    <String name="errNameAlreadyUsed" value="その名前は既に使われています" />
+    <String name="errTitle" value="エラー" />
+    <String name="fieldbusChangePortMsg" value="警告! ﾌｨｰﾙﾄﾞﾊﾞｽのｺﾝｿｰﾙのﾎﾟｰﾄは再起動後に変更されます." />
+    <String name="fieldbusPageTitle" value="ﾌｨｰﾙﾄﾞﾊﾞｽ ｺﾝｿｰﾙ ﾎﾟｰﾄ" help="" />
+    <String name="fieldbusRemotePort" value="ﾌｨｰﾙﾄﾞﾊﾞｽ ｺﾝｿｰﾙ ﾎﾟｰﾄ: " help="ﾌｨｰﾙﾄﾞﾊﾞｽ ｺﾝｿｰﾙ ﾂｰﾙと通信するｲｰｻﾈｯﾄ TCP ﾎﾟｰﾄ." />
+    <String name="fileExportPageDestination" value="出力先 : " />
+    <String name="fileExportPageSource" value="ソース : " />
+    <String name="fileExportPageTitle" value="エクスポート" help="" />
+    <String name="fileImportPageTitle" value="インポート" help="" />
+    <String name="fileSelectLocation" value="ロケーション: " help="フォルダまたはサポートされたファイル" />
+    <String name="fileSelectName" value="ファイル名 : " />
+    <String name="fileSelectTitle" value="ファイルの選択" help="" />
+    <String name="filemgrDeletePopupMsg" value=" と、コンテンツ won&apos; は表示されません" />
+    <String name="filemgrDeletePopupTitle" value="FTP接続を解除して下さい" />
+    <String name="filemgrFlash" value="ディスク" />
+    <String name="filemgrFloppy" value="フロッピー" />
+    <String name="filemgrNode" value="ファイル" help="" />
+    <String name="filemgrProjectsBrowsingError" value="ブラウジング中のエラー" />
+    <String name="filemgrTemplates" value="テンプレート" />
+    <String name="frameErrorOx" value="Oxが原点に近すぎます" />
+    <String name="frameErrorOxy" value="Oxyは原点とOxのポイントの行にあります" />
+    <String name="frameOrigin" value="原点" help="ティーチされるフレームの原点" />
+    <String name="frameTeachMoveMsg" value="Move/Holdを押して、ロケーションを選択してください" />
+    <String name="frameTeachOrigin" value="原点 : " help="原点のシフト、原点ポイントRPEIの隣にX軸とY軸のポイントをティーチできないときのみ使用される" />
+    <String name="frameTeachOx" value="X軸 : " help="正の方向のX軸上にティーチ点を打ちます。もし原点0がシフトされていれば、X軸はシフトX軸でなければなりません" />
+    <String name="frameTeachOxy" value="Y軸 : " help="Yが正の方向のXY面上にティーチ点を打ちます。もし原点0がシフトされていれば、Y軸はシフトY軸でなければなりません" />
+    <String name="frameTitle" value=" ティーチング" help="" />
+    <String name="frameUndefined" value=" 未定義" />
+    <String name="freeDiskSpaceClearFailed" value="デバイスをクリアできません" />
+    <String name="freeDiskSpaceClearWarning" value="全アプリケーションは消去されるデバイスに保存されています" />
+    <String name="freeDiskSpaceWarningTitle" value="警告" />
+    <String name="ftpHostIp" value="IP アドレス : " />
+    <String name="ftpHostName" value="名前 : " help="この名前は表示のためだけに使用されます" />
+    <String name="ftpLoginPassword" value="ログイン パスワード : " />
+    <String name="ftpLoginUser" value="ログイン ユーザ : " />
+    <String name="ftpPath" value="パス : " help="FTPサーバーのフォルダへのパス" />
+    <String name="ftpPathExist" value="FTPパスは既に使われています" />
+    <String name="ftpSettingsTitle" value="新しいFTP接続" help="新しいFTP接続" />
+    <String name="gatewayAddErrorDhcpMsg" value="DHCPクライアントが動作中はゲートウェイのリストを編集できません" />
+    <String name="gatewayAddErrorMsg" value="不正なゲートウェイ : ゲートウェイもしくはサブネットのIPが不正、サブネットが既にハンドルされている" />
+    <String name="gatewayAddPageDestination" value="出力先 : " />
+    <String name="gatewayAddPageGateway" value="ゲートウェイ : " />
+    <String name="gatewayAddPageTitle" value="新規" help="" />
+    <String name="gatewayEditErrorMsg" value="不正なゲートウェイ : ゲートウェイもしくはサブネットのIPが不正、サブネットが既にハンドルされている" />
+    <String name="gatewayEditPageTitle" value="編集" help="" />
+    <String name="gatewayNodeName" value="ゲートウェイ" help="" />
+    <String name="gatewayRemoveQuestion" value="このゲートウェイを本当に削除してもよろしいですか？" />
+    <String name="importApplicomFile" value="モッドバスもしくはフィールドバスの設定をインポートしますか？" />
+    <String name="importApplicomFileReboot" value="新しい設定を使用するため再起動してくださ" />
+    <String name="inputTitle" value="入力" help="" />
+    <String name="invalidIpAddress" value="不正なIPアドレス" />
+    <String name="ioNodeTitle" value="I/O" help="" />
+    <String name="ipAddress" value="アドレス : " />
+    <String name="ipAutomaticIp" value="自動取得 IP (DHCP) : " />
+    <String name="ipDhcpWarningMsg" value="このアクションはゲートウェイリストをクリアします" />
+    <String name="ipDhcpWarningTitle" value="警告" />
+    <String name="ipMask" value="サブネットマスク : " help="ネットワークマスク、通常は255.255.0.0もしくは255.0.0.0です" />
+    <String name="ipRequesting" value="リクエスト中..." />
+    <String name="ipSettingsConfirmText" value="コントローラのIPアドレスは直ちに変更されます" />
+    <String name="ipSettingsConfirmTitle" value="IPの設定の更新" />
+    <String name="ipSettingsTitle" value="IP 設定" help="" />
+    <String name="ipSettingsUpdateError" value="システムイベント SYS-IP : IPアドレスは更新できません" />
+    <String name="jogCartesianPositionNode" value="直交座標 ポジション" />
+    <String name="jogJointPositionNode" value="ジョイントポジション" help="" />
+    <String name="jogToolNode" value="ツール" />
+    <String name="jointEdit" value="ジョイントの編集" help="ジョイントの編集" />
+    <String name="jointLatch" value="ラッチポジション" />
+    <String name="jointVelocity" value="ジョイント速度" help="" />
+    <String name="language" value="言語 : " />
+    <String name="languageSettingsTitle" value="言語の選択" help="" />
+    <String name="limitsEdit" value="ジョイント リミット 編集" help="" />
+    <String name="limitsError" value="不正な値" />
+    <String name="limitsMaximum" value="max" />
+    <String name="limitsMinimum" value="min" />
+    <String name="limitsOutside" value="現在のロボットのポジションは新しいリミットの範囲外です" />
+    <String name="location" value="ロケーション (" help="ロケーション編集" />
+    <String name="locationIn" value="フレーム内のロケーション" />
+    <String name="maxManuCartSpeed" value="手動モードの最大速度 : " help="手動モードの最大速度の変更"/>
+    <String name="maxManuCartSpeedTitle" value="手動モードの最大速度" help="手動モードの最大速度の変更"/>
+    <String name="maxJntVel" value="手動モードのジョイント最大速度" help=""/>
+    <String name="mdescAccel" value="加速度 (%)  : " />
+    <String name="mdescDecel" value="減速度 (%)  : " />
+    <String name="mdescVel" value="速度 (%)    : " />
+    <String name="mdescBlend" value="ブレンド    :   " />
+    <String name="mdescRvel" value="回転速度(deg/s): " />
+    <String name="mdescBlendJoint" value="ジョイント" />
+    <String name="mdescBlendOff" value="Off" />
+    <String name="mdescBlendCartesian" value="直交座標" />
+    <String name="mdescDecelVelError" value="減速 &gt;= 速度に" />
+    <String name="mdescErrorTitle" value="mdesc エラー" />
+    <String name="mdescSpeed" value="速度  (%)   : " />
+    <String name="mdescSpeedUser" value="ﾕｰｻﾞｰ" />
+    <String name="mdescTitle" value="mdescの編集" help="モーション記述の編集" />
+    <String name="mnuAppGLobalStatus" value="Info" help="エラーデバイスの一覧" />
+    <String name="mnuAppNodeStartTcp" value="Init" help="" />
+    <String name="mnuCrtlNodeLoad" value="Imp." help="フロッピーからセル設定をインポートします" />
+    <String name="mnuCrtlNodeSave" value="Exp." help="フロッピーにセル設定を保存します" />
+    <String name="mnuDateEdit" value="Edit" help="システム日付と時間の更新" />
+    <String name="mnuDateSync" value="Sync" help="" />
+    <String name="mnuDioMode" value="Mode" help="dioロジックの切り替え : ダイレクト / インバース" />
+    <String name="mnuDioRename" value="Ren." help="入力/出力の名前の変更" />
+    <String name="mnuDioToggleOn" value="On" help="dioのスイッチを入れます" />
+    <String name="mnuDioToggleOff" value="Off" help="dioのスイッチを切ります" />
+    <String name="mnuDriveInfo" value="Info" help="デバイスの詳細ステータスの表示" />
+    <String name="mnuFileDelete" value="Del." help="選択されたファイルまたはフォルダを削除します" />
+    <String name="mnuFileRename" value="Ren." help="選択されたファイルまたはフォルダの名前を変更します" />
+    <String name="mnuFilemgrDelete" value="Del." help="選択されたFTP接続を削除します" />
+    <String name="mnuFilemgrEdit" value="Edit" help="選択されたFTP接続のパラメータを編集します" />
+    <String name="mnuFilemgrNew" value="Ftp" help="新しいFTP接続を追加します" />
+    <String name="mnuFrameEdit" value="Edit" help="選択されたフレームの座標を編集します" />
+    <String name="mnuFrameHere" value="Here" help="選択されたフレームに現在のポジションとツールをセットします" />
+    <String name="mnuFrameMove" value="Move" help="選択されたロケーションを移動します" />
+    <String name="mnuFreeDiskSpaceClear" value="Clear" help="デバイスをクリアします" />
+    <String name="mnuFreeDiskSpaceRefresh" value="Refr" help="" />
+    <String name="mnuGatewayAdd" value="New" help="" />
+    <String name="mnuGatewayDel" value="Del." help="" />
+    <String name="mnuGatewayEdit" value="Edit" help="" />
+    <String name="mnuInformation" value="Info" help="デバイスステータス" />
+    <String name="mnuIpEdit" value="Edit" help="コントローラのIPアドレスを更新します" />
+    <String name="mnuLanguageEdit" value="Edit" help="言語を変更します(再起動が必要)" />
+    <String name="mnuLimitsEdit" value="Edit" help="ソフトウェアのジョイントのリミットを変更します(再起動が必要)" />
+    <String name="mnuMaxManuCartSpeedEdit" value="編集" help="手動モードの最大速度の変更（ロボットによる）" />
+    <String name="mnuMdescAdvance" value=" &gt;&gt; " help="全てのmdescのパラメータを編集します" />
+    <String name="mnuMdescUnadvance" value=" &lt;&lt; " help="mdescのメインパラメータを編集します" />
+    <String name="mnuMonitorSpeedEdit" value="Edit" help="モニタースピードを変更します" />
+    <String name="mnuRecorderInit" value="Init" help="" />
+    <String name="mnuRecorderStart" value="start" help="" />
+    <String name="mnuRecorderStop" value="stop" help="" />
+    <String name="mnuRecorderStore" value="stor" help="" />
+    <String name="mnuRecorderClear" value="clr." help="レコードファイルを全てクリアします" />
+    <String name="mnuRsiDisplayInfo" value="Info" help="Rsi 7 セグメント表示ユニットの詳細ステータスの表示" />
+    <String name="mnuSafetyEdit" value="Edit" help="緊急停止チェーン長の変更" />
+    <String name="mnuSafetyDefaultAck" value="確認" help="ハードウェア障害情報の確認" />
+    <String name="mnuSafetyDefaultInfo" value="情報" help="ハードウェア障害を検知したため、ロボットを操作することができません。" />
+    <String name="mnuSensorInfo" value="Info" help="" />
+    <String name="mnuSerialEdit" value="Edit" help="シリアルラインのパラメータを変更します" />
+    <String name="mnuSerialRen" value="Ren." help="シリアルラインの名前を変更します" />
+    <String name="mnuSocketDel" value="Del." help="選択されたソケットクライアントもしくはサーバを削除します" />
+    <String name="mnuSocketNew" value="New." help="新しいソケットクライアントもしくはサーバを追加します" />
+    <String name="mnuSocketProperties" value="Edit" help="選択されたソケットクライアントもしくはサーバのプロパティを編集します" />
+    <String name="mnuSocketRename" value="Ren." help="ソケットクライアントもしくはサーバへの接続の名前を変更します" />
+    <String name="mnuSocketTest" value="Test" help="ソケットサーバへの接続をテストします" />
+    <String name="mnuUnitsEdit" value="Edit" help="長さの単位を変更します(mm/inch)" />
+    <String name="modeDirect" value="ダイレクト" />
+    <String name="modeInverted" value="インバース" />
+    <String name="modeTitle" value="Dio ロジックモード" help="Dio ロジックモード" />
+    <String name="modeTxt1" value="現在の Dio ロジックモードは" />
+    <String name="modeTxt2" value="。 モードの切り替え " />
+    <String name="monitorSpeedTitle" value="モニタースピード" help="" />
+    <String name="nodeVersion" value="バージョン" help="" />
+    <String name="notAvailable" value="情報がありません" />
+    <String name="orientation" value="オリエンテーション (" help="" />
+    <String name="outputTitle" value="出力" help="" />
+    <String name="position" value="X Y Z :" />
+    <String name="powerCounter" value="アーム時間 : " help="" />
+    <String name="recorderInfoPageDefaultPath" value="コントローラ" />
+    <String name="recorderInfoPageDescription" value="記述先 : " />
+    <String name="recorderInfoPageFileName" value="レコード名 : " />
+    <String name="recorderInfoPageParamPath" value="ロケーションの設定: " />
+    <String name="recorderInfoPageRecordPath" value="ロケーションの記録: " />
+    <String name="recorderInfoPageTitle" value="ログ情報参照" help="" />
+    <String name="recorderInitErrorMsg" value="レコード 設定の読み込みエラー" />
+    <String name="recorderInitParametersError" value="レコード設定の中に不正なパラメータがあります。イベントログを確認してください。" />
+    <String name="recorderInitStoreFileError" value="レコードストレージファイルにアクセスできません" />
+    <String name="recorderInvalidParameters" value="レコードが開始できませんでした : 設定を確認してください" />
+    <String name="recorderStartRecordNotCleared" value="メモリー内のレコードが失われます" />
+    <String name="recorderStoreError" value="レコード保存エラー" />
+    <String name="recorderStorePageLocation" value="ロケーション : " />
+    <String name="recorderStorePageMsg" value="レコード保存のためのロケーションを選択して下さい" />
+    <String name="recorderClearConfirmationMsg" value="全てのレコードファイルを削除します" />
+    <String name="recorderClearError" value="クリア中にエラー" />
+    <String name="recorderStorePageTitle" value="ストア" help="" />
+    <String name="renameDioTitle" value="I/Oの名前を変更" help="" />
+    <String name="rsiArmPowered" value="アーム電源が入っています" />
+    <String name="rsiBrakesPowerSupplyNotActivated" value="ブレーキ電源が供給されていません" />
+    <String name="rsiBrakingCommandNotActivated" value="コンピュータからのブレーキのコマンドが動作しません" />
+    <String name="rsiDriveFault" value="アンプのエラー" />
+    <String name="rsiEstop1OrderMemorised" value="ESTOP1 順序が記憶されました" />
+    <String name="rsiEstop2OrderMemorised" value="ESTOP2 順序が記憶されました" />
+    <String name="rsiFuseF2OutOfOrder" value="ヒューズ F2 が切れました" />
+    <String name="rsiLimitStopActivated" value="アームのリミット停止が動作しました" />
+    <String name="rsiManualBrakeControlActivated" value="手動ブレーキコントロールが動作しました" />
+    <String name="rsiManualBrakeControlChannel1" value="手動ブレーキコントロール チャンネル1" />
+    <String name="rsiManualBrakeControlChannel2" value="手動ブレーキコントロール チャンネル2" />
+    <String name="rsiManualBrakeControlSelected" value="手動ブレーキコントロールが選択されました" />
+    <String name="rsiParkingNotActivated" value="デッドマン または パークが正しくされていません" />
+    <String name="rsiPowerSupplyProblem" value="RSI ボードの電源供給のトラブル" />
+    <String name="rsiPowerSupplyNotActivated" value="電源供給が有効ではありません" />
+    <String name="rsiPowerUpOrder1NotActivated" value="パワーアップオーダー 1 が有効ではありません" />
+    <String name="rsiPowerUpOrder2NotActivated" value="パワーアップオーダー 2 が有効ではありません" />
+    <String name="rsiPowerUpSeq1NotActivated" value="パワーアップシーケンス 1 が有効ではありません" />
+    <String name="rsiPowerUpSeq2NotActivated" value="パワーアップシーケンス 2 が有効ではありません" />
+    <String name="rsiPowerUpSeq1NotEffective" value="パワーアップシーケンス 1 が有効ではありません" />
+    <String name="rsiPowerUpSeq2NotEffective" value="パワーアップシーケンス 2 が有効ではありません" />
+    <String name="rsiShortEnEffective" value="SHORTE-EN が有効です" />
+    <String name="rsiShortEnNotActivated" value="SHORTE-EN がアクティブではありません" />
+    <String name="rsiThermoSwitchOpen" value="Regeneration thermoSwitch open : contact J303, 3-4 open" />
+    <String name="rsiUnknown" value="不明なステータスです" />
+    <String name="rsiUserEmergencyStopA1Activated" value="ユーザー緊急停止 A1 がアクティブです" />
+    <String name="rsiUserEmergencyStopA2Activated" value="ユーザー緊急停止 A2 がアクティブです" />
+    <String name="rsiUserEmergencyStopB1Activated" value="ユーザー緊急停止 B1 がアクティブです" />
+    <String name="rsiUserEmergencyStopB2Activated" value="ユーザー緊急停止 B2 がアクティブです" />
+    <String name="rsiUserEmergencyStopDoor1Activated" value="ユーザー緊急停止 UEN1/DOOR1 がアクティブです" />
+    <String name="rsiUserEmergencyStopDoor2Activated" value="ユーザー緊急停止 UEN2/DOOR2 がアクティブです" />
+    <String name="rsiUserEmergencyStopMcp1Activated" value="MCPの緊急停止 1 がアクティブです" />
+    <String name="rsiUserEmergencyStopMcp2Activated" value="MCPの緊急停止 2 がアクティブです" />
+    <String name="rsiWatchdogOpen" value="ウォッチドッグが開いています" />
+    <String name="rsiWmsEmergencyStop1Activated" value="ユーザー緊急停止 A1 もしくは WMS 緊急停止がアクティブです" />
+    <String name="rsiWmsEmergencyStop2Activated" value="ユーザー緊急停止 A2 もしくは WMS 緊急停止がアクティブです" />
+    <String name="rxryrz" value="RxRyRz:" help="" />
+    <String name="safetyChainLength" value="安全チェーンアウト長 : " help="安全チェーンアウトの長さを選択して下さい" />
+    <String name="safetyChainLengthTitle" value="安全チェーンアウト長の選択" help="安全チェーンアウトの長さを選択して下さい" />
+    <String name="safetyChainLong" value="ロング" help="" />
+    <String name="safetyChainShort" value="ショート" help="" />
+    <String name="safetyDefaultInfo" value="ハードウェア障害を検知したため、ロボットを操作することができません。緊急停止信号をクリアし、ハードウェア障害からの復旧を確認するために、同じ緊急停止信号を再度アクティブにしてください。ロボット操作を再開するためには、コントロールパネルから障害情報の確認が必要です。" help="" />
+    <String name="safetyNoDefault" value="正常" />
+    <String name="safetyDiagnostic" value="ハードウェア信号の異常: " />
+    <String name="sensor" value="センサー" />
+    <String name="sensorErrAlarm" value="センサーアラーム" />
+    <String name="sensorErrBusNotReady" value="DSIボードに到達しません" />
+    <String name="sensorErrCrc" value="DSI &lt;-&gt; sensorのcrcエラー" />
+    <String name="sensorErrDsiResident" value="DSI-レジデントモードのエラー。DSIボードは現在起動していません。リカバリするため再起動してください。" />
+    <String name="sensorErrFpgaNotToogle" value="DSI-FpgaNotToggleのエラー。DSIボードでハードウェアエラー。リカバリするため再起動してください。" />
+    <String name="sensorErrHw" value="DSI &lt;-&gt; センサーハードウェアエラー" />
+    <String name="sensorErrNoOffset" value="センサーオフセットがありません" />
+    <String name="sensorErrNotConnected" value="センサーが接続されていません" />
+    <String name="sensorErrNotEnabled" value="DSIボードが有効ではありません" />
+    <String name="sensorErrOverrun" value="DSI &lt;-&gt; センサーオーバーランエラー" />
+    <String name="sensorErrOverspeed" value="センサー オーバースピード" />
+    <String name="sensorFailed" value="失敗しました" />
+    <String name="sensorInfoPageTitle" value="ステータス" />
+    <String name="sensorNodeTitle" value="センサー ステータス" help="" />
+    <String name="sensorWorking" value="動作中" />
+    <String name="serialBauds" value="ボーレート : " />
+    <String name="serialByteSize" value="バイト数" />
+    <String name="serialCommunicationMode" value="モード : " />
+    <String name="serialEndOfStringChar" value="区切り文字 : " />
+    <String name="serialEvenParity" value="偶数" />
+    <String name="serialFlowControl" value="フローコントロール : " />
+    <String name="serialHardwareFlowControl" value="ハードウェア" />
+    <String name="serialMnuToggle" value="Tog." />
+    <String name="serialNoFlowControl" value="なし" />
+    <String name="serialNoParity" value="なし" />
+    <String name="serialNodeTitle" value="シリアル" help="" />
+    <String name="serialNumberStopBit" value="停止ビットのナンバー: " />
+    <String name="serialOddParity" value="奇数" />
+    <String name="serialParity" value="パリティ : " />
+    <String name="serialPropertiesPageTitle" value="パラメータ" help="" />
+    <String name="serialRenamePageTitle" value="シリアルの名前を変更します" help="" />
+    <String name="serialTimeout" value="タイムアウト (s): " help="0はタイムアウトなし" />
+    <String name="serialToggleMsg" value="よろしいですか？" />
+    <String name="serialToggleMsgTitle" value="COM2 スイッチング" />
+    <String name="soapChangePortMsg" value="注意! SRS 3D Studio のﾎﾟｰﾄはﾛﾎﾞｯﾄの再起動後に変更されます." />
+    <String name="soapPageTitle" value="SRS 3D Studio" help="" />
+    <String name="soapPort" value="3D Studio ﾎﾟｰﾄ: " help="SRS 3D Studioと通信するｲｰｻﾈｯﾄ TCP ﾎﾟｰﾄです." />
+    <String name="socketCannotDeleteInUse" value="削除できません : このソケットは使用されています" />
+    <String name="socketCannotEditInUse" value="ソケットが使用中は、このプロパティは変更できません" />
+    <String name="socketClient" value="ｸﾗｲｱﾝﾄ" />
+    <String name="socketCreatePageTitle" value="新規" help="" />
+    <String name="socketCreateWarningMsg" value="新しいソケット使用するため、現在の全てのアプリケーションをアンロードし、再ロードしてください" />
+    <String name="socketDelConfirmMsg" value="警告！このソケット接続は削除されます。" />
+    <String name="socketDeleteWarningMsg" value="削除するため、現在の全てのアプリケーションをアンロードし、再ロードしてください。" />
+    <String name="socketEndOfStringChar" value="区切り文字 : " />
+    <String name="socketName" value="Name : " help="ソケット接続の名前" />
+    <String name="socketNbClients" value="クライアントのナンバー" />
+    <String name="socketNodeName" value="ソケット" help="ソケットクライアントとサーバの一覧" />
+    <String name="socketPingKoMsg" value="サーバーデバイスはネットワークに届いていません" />
+    <String name="socketPort" value="ポート : " help="ソケットのポート接続" />
+    <String name="socketPropertiesPageTitle" value="パラメータ" help="ソケット接続のパラメータの編集" />
+    <String name="socketRenamePageTitle" value="名前の変更" help="" />
+    <String name="socketReservedPortMsg" value="警告！このポートは予約レンジ[0 - 1000]に達しています。" />
+    <String name="socketServer" value="ｻｰﾊﾞｰ" />
+    <String name="socketServerIp" value="サーバーアドレス : " help="ソケットサーバーのIPアドレス" />
+    <String name="socketSystemPortMsg" value="警告! ｼｽﾃﾑTCPｻｰﾊﾞｰは既にこのﾎﾟｰﾄを使用しています. ﾎﾟｰﾄを代えるか,ﾈｯﾄﾜｰｸ設定でｼｽﾃﾑﾎﾟｰﾄを変更してください." />
+    <String name="socketTestKoMsg" value="特別なアドレスのソケットサーバーは接続できません" />
+    <String name="socketTestOkMsg" value="サーバー接続 OK" />
+    <String name="socketTimeout" value="タイムアウト (s) : " help="0はタイムアウトなし" />
+    <String name="socketType" value="タイプ : " />
+    <String name="teachError" value="現在のポジションは、ジョイント %d のリミットの範囲外です" />
+    <String name="teachJointDefaultTitle" value="ジョイント ティーチング" help="" />
+    <String name="teachJointTitle" value="ティーチング " />
+    <String name="teachPointTitle" value="ティーチング " help="" />
+    <String name="telemaintenanceChangePortMsg" value="警告！接続中の全てのメンテナンスツールは切断されます。" />
+    <String name="telemaintenancePageTitle" value="テレメンテナンス" help="" />
+    <String name="telemaintenanceRemotePort" value="テレメンテナンス ポート : " help="SRS テレメンテナンスツールで通信するイーサネットTCPポート" />
+    <String name="telnetChangePortMsg" value="警告! telnet ﾎﾟｰﾄは再起動後に変更されます." />
+    <String name="telnetPageTitle" value="Telnet" help="" />
+    <String name="telnetPort" value="Telnet ﾎﾟｰﾄ: " help="telnetﾌﾟﾛﾄｺﾙで通信するｲｰｻﾈｯﾄTCPﾎﾟｰﾄ." />
+    <String name="units" value="単位 : " />
+    <String name="unitsRebootMsg" value="システム 設定を更新するため、再起動してください" />
+    <String name="unitsSettingsTitle" value="単位の設定" help="" />
+    <String name="updateConfiguration" value="設定の変更" help=" FORCEにセットした場合、このポイント設定はティーチされます。SAMEにセットした場合は、このポイント設定は&apos;same&apos;になります。" />
+    <String name="vectorCoordinates" value="座標 (" help="" />
+    <String name="wmLocked" value="ロック中" />
+    <String name="wmMnuLock" value="Lock" help="現在のワーキングモードをロック" />
+    <String name="wmMnuPwd" value="Pwd." help="ワーキングモードのパスワードの変更" />
+    <String name="wmMnuUnlock" value="Unl." help="ワーキングモードのロック解除" />
+    <String name="wmStatusNode" value="ワーキングモード" />
+    <String name="wmUnlock" value="ロック解除" />
+  </Resources>
+  <Resources name="CS" >
+    <String name="accessSwapApplication" value="このプロファイルはこのメニューキーを使用することを許可されていません" />
+    <String name="accessUserLoggedIn" value="新しいプロファイル : ###" />
+    <String name="appIoEquipmentError" value="フィールドバスの準備中のエラー" />
+    <String name="appIoNetworkError" value="フィールドバスのネットワークエラー" />
+    <String name="armNotCalibrated" value=" 失敗 : アームはキャリブレーションされていません" />
+    <String name="armSerialNumber" value="アームのシリアルナンバー" />
+    <String name="armVersion" value="アーム" />
+    <String name="axisLimitsFile" value="(ファイル : " />
+    <String name="bootArmCfCfxNotFound" value="arm.cf もしくは arm.cfx が見つかりません" />
+    <String name="bootFileOnFd" value="%sをフラッシュディスクからロードしました" />
+    <String name="bootFileOnUsb" value="%sをUSBデバイスからロードしました" />
+    <String name="bootLogOnUsb" value="LogパーティションをUSBデバイスにマウントしました" />
+    <String name="bootSysOnUsb" value="SysパーティションをUSBデバイスにマウントしました" />
+    <String name="bootUsrOnUsb" value="UsrパーティションをUSBデバイスにマウントしました" />
+    <String name="bootBuildSoftComponents" value="ソフトウェアコンポーネントをビルド中" />
+    <String name="bootLoadApp" value="ユーティリティをロード中" />
+    <String name="calBadConfig" value="DRIVE-InvalidConfiguration システムイベント ドライブ-不正な設定 %d 軸" />
+    <String name="calCalibOffsetError" value="CAL-ZeroOffset DSIボードとarm.cfxのゼロオフセットが一致していません、%d 軸" />
+    <String name="calNoCalibOffset" value="ゼロオフセットが設定されていないか、または不正です、%d 軸" />
+    <String name="calCoderCommunicationError" value="CAL-CommError エンコーダのシリアル通信のエラー。キャリブレーションが失われました。%d 軸" />
+    <String name="calCoderLineBroken" value="CAL-LineBroken エンコーダのアナログ入力エラー。キャリブレーションが失われました。%d 軸" />
+    <String name="calIllegalSequence" value="システムイベント DAPS-IllegalSequence%d軸のシーケンスが不正" />
+    <String name="calInvalidPos" value="CAL-InvalidFile不正なアームキャリブレーションのデータ : アーム設定ファイル arm.cfxが見つからないか、または不正です" />
+    <String name="calLowBattery" value="DAPS-LowBatteryキャリブレーションの電源の電圧が低すぎます" />
+    <String name="calMotionDetected" value="CAL-Motionコントローラの最後のシャットダウン時から、モータのポジションが変更されています。%d軸のキャリブレーションは失われました" />
+    <String name="calNotInitialized" value="CAL-NotInitドライブが初期化されていません。%d軸のキャリブレーションは失われました。" />
+    <String name="calOverSpeed" value="CAL-OverSpeedオーバースピードエラー。%d軸のキャリブレーションは失われました。" />
+    <String name="calOverflow" value="DAPS-Overflowシステムイベント %d軸のDAPS-オーバーフロー" />
+    <String name="calPowerDownFailure" value="CAL-PowerDownErrorコントローラのシャットダウン時のポジションが保存されませんでした。%d軸のキャリブレーションは失われました。" />
+    <String name="calResolverLoss" value="DAPS-ResolverLossモーターポジションを読み込めません。%d軸のキャリブレーションは失われました。" />
+    <String name="calSensorInError" value="CAL-CoderError %d軸をキャリブレーションできません : センサーエラーです" />
+    <String name="calSensorOffsetError" value="CAL-PhaseOffset DSIボードとarm.cfxのオフセットが一致しません、%d 軸" />
+    <String name="calNoSensorOffset" value="フェーズオフセットが設定されていないか、または不正です、%d 軸" />
+    <String name="calUnknowError" value="システムイベント DRIVE-UnexpectedCalibrationError予期しないキャリブレーションエラー %d 軸" />
+    <String name="cbiAppliRestart" value=" イベントが失われました" />
+    <String name="cbiAppliStop" value="システムイベント INTERFACE-Stopped停止 (" />
+    <String name="cbiCannotLoadApplication" value="以下のアプリケーションが起動時に開けませんでした:" />
+    <String name="cbiCannotStartApplication" value="以下のアプリケーションが起動時に動作できませんでした:" />
+    <String name="cbiInterfaceError" value="Interface error" />
+    <String name="ceilingMounted" value="ceilingシーリング" />
+    <String name="celAccessWorkingMode" value="INTERFACE-Profileこのプロファイルはワーキングモードを変更することを許可されていません" />
+    <String name="cmdOutOfLimits" value="ROBOT-InvalidCmdレンジ外 #%d 軸" />
+    <String name="compliantMoveTooLong" value="MOTION-ComplianceErrコンプライアント ムーヴが長すぎます" />
+    <String name="configVersion" value="設定 バージョン" />
+    <String name="controllerSerialNumber" value="マシーン ナンバー" />
+    <String name="copyright" value="     (c) Stäubli Faverges 2002-2010" />
+    <String name="dhcpNewLease" value="新しい自動IP : ###" />
+    <String name="driveNbr" value="ドライブ #" />
+    <String name="enveloppeError" value="ROBOT-EnveloppeErrエンベロープ エラー #軸" />
+    <String name="errorMsgConnexionRefused" value="デバイスが準備できていません" />
+    <String name="errorMsgDeviceError" value="デバイスエラー" />
+    <String name="errorMsgDeviceNotFound" value="デバイスが見つかりません" />
+    <String name="errorMsgDeviceReadOnly" value="デバイスは読取専用です。" />
+    <String name="errorMsgDeviceTimeout" value="デバイス タイムアウト" />
+    <String name="errorMsgDiskFull" value="ディスクがいっぱいです" />
+    <String name="errorMsgDiskNotPresent" value="メディアがセットされていません" />
+    <String name="errorMsgFileNotFound" value="ファイルが見つかりませんでした" />
+    <String name="errorMsgFtpAccessError" value="リモートファイルシステムエラー" />
+    <String name="errorMsgFtpInvalidUser" value="不正なFTPログイン" />
+    <String name="errorMsgFtpKernelError" value="内部エラー : FTPクライアントを作成できません" />
+    <String name="errorMsgFtpParametersError" value="不正なFTPパス" />
+    <String name="errorMsgFtpServerNotFound" value="特殊なIPアドレスではFTPサーバーは動作しません" />
+    <String name="errorMsgFtpStorageAllocationExceeded" value="リモートディスクがいっぱいです" />
+    <String name="errorMsgFtpUnknownHost" value="FTPサーバーの指定されたIPアドレスには届きません" />
+    <String name="errorMsgUnformated" value="デバイスはフォーマットされていません" />
+    <String name="errorMsgUnknownError" value="ファイルシステムエラー" />
+    <String name="errorMsgWriteProtected" value="デバイスは書込み禁止です" />
+    <String name="evtDapsVersion" value="DAPSボードのバージョン " />
+    <String name="floorMounted" value="フロアー" />
+    <String name="gravity" value="加速度 (x y z):" />
+    <String name="ht414CannotStop" value="リモートモードではアプリケーションは手動で停止できません" />
+    <String name="ht414DeadmanCoherency" value="デッドマンエラー : デッドマンスイッチが押されているか確認してください。" />
+    <String name="ht414ParkCoherency" value="ティーチペンダントのパーキングエラー : ペンダントがクレードルに正しくパーキングされたか確認してください。" />
+    <String name="initMsg" value="初期化中 ..." />
+    <String name="internalError" value="内部エラー " />
+    <String name="internalErrorSaf" value="内部エラー SAFETY-" />
+    <String name="internalPmAlimOkDown" value="アームパワーシャットダウン : 内部電源エラー (CS8: 24V_2, CS8C: ARPSモジュールのALIM_OK)。リカバリのために再起動が必要です。" />
+    <String name="internalPmSecteurOkDown" value="アームパワーシャットダウン : コントローラの電源供給の停止を検知しました (SECTEUR_OK signal)。リカバリのために再起動が必要です。" />
+    <String name="isMissing" value=" は存在しません" />
+    <String name="isUnknown" value=" が不明です" />
+    <String name="keyWmButtonHasNoEffect" value="ワーキングモードボタンは有効ではありません" />
+    <String name="keyWmTestNotAllowed" value="手動テストモードは許可されていません" />
+    <String name="keyWMActive" value="WMSの使用は許可されていません" />
+    <String name="logFull" value="内部エラー INTERFACEEventLost -イベント喪失 : いくつかのシステムイベントメッセージが失われます" />
+    <String name="logRestart" value="内部エラー INTERFACE-EventLostイベント喪失 の終端。" />
+    <String name="logSwapMsg" value="スワップの後にログが再開されました" />
+    <String name="macAddress" value="Mac アドレス = " />
+    <String name="mcpConnected" value="MCP接続がシミュレーションされました" />
+    <String name="mode" value="ワーキングモード:" />
+    <String name="modeInvalid" value="InvalidMode不正" />
+    <String name="modeLocal" value="Localローカル" />
+    <String name="modeManuFast" value="ManuFast手動テスト" />
+    <String name="modeManuSlow" value="ManuSlow手動" />
+    <String name="modeRemote" value="Remoteリモート" />
+    <String name="motionAbAngleExceed180Deg" value="MOTION-abAngleサイクルの開始と中間のポイントの角度が180度を超えました。" />
+    <String name="motionAbcTooClose" value="MOTION-TooCloseサイクルの開始、中間、終点のポイントが近すぎます。" />
+    <String name="motionAccError" value="MOTION-Acc mdescの不正なアクセル値" />
+    <String name="motionBcAngleExceed180Deg" value="MOTION-bcAngleサイクルの中間と終端のポイントの角度が180度を超えました" />
+    <String name="motionBlendingError" value="MOTION-Blend mdescの不正なブレンディング" />
+    <String name="motionCartBlendRotTooBig" value="直交座標 ブレンディング ローテーションの角度が大きすぎます" />
+    <String name="motionDecError" value="MOTION-Dec mdescの不正な減速値" />
+    <String name="motionJogOutOfRange" value="アームをジョグできません : %d軸のソフトウェアのリミットに達しました。" />
+    <String name="motionNotReachable" value="MOTION-NotReachable動作を完了できません : 目標点がリーチの範囲外です。" />
+    <String name="motionOutOfRange" value="MOTION-OutOfRange移動できません : 目標点がソフトウェア軸のリミットの範囲外です" />
+    <String name="motionPartMountingError" value="Part mounting error" />
+    <String name="motionSingularity" value="MOTION-Singularity移動できません : このケースでは特異点を通過できません。" />
+    <String name="motionTwoRotationChoices" value="MOTION-Rot180deg開始点と中間点、または中間点と終端点のオリエンテーションの切り替えがちょうど180度になりました : 動作の方向が決定されていません。" />
+    <String name="motionVelAxisError" value="MOTION-VelAxis%d軸のオーバースピードのコマンドです" />
+    <String name="motionVelError" value="MOTION-VelError mdescの不正な速度値です" />
+    <String name="notReachableConfig" value="(config互換性のないアーム設定)" />
+    <String name="notReachableLimits" value="(limitsソフトウェアジョイントのリミットの範囲外)" />
+    <String name="notReachableWorkspace" value="(workspaceアームのワークスペースの範囲外)" />
+    <String name="optionName" value="オプション : " />
+    <String name="powerDisabled" value="Disabledアームパワーのシャットダウンの最終段階です。" />
+    <String name="powerEnabled" value="Enabledアームパワーが安定しました。" />
+    <String name="powerError" value="システムイベント POWER-Error" />
+    <String name="powerHourCount" value="アームパワー起動時間数 = " />
+    <String name="powerOff" value="PowerOffアームパワーのシャットダウン中..." />
+    <String name="powerOffRequest" value="アームパワーのシャットダウンの同時リクエスト。" />
+    <String name="powerOkError" value="システムイベント POWER-PWR_OK-Error" />
+    <String name="powerOn" value="PowerOnアームパワーの安定化中..." />
+    <String name="quickBoot" value="クイック起動には、&apos;q&apos; を押して下さい" />
+    <String name="rcAccessDout" value="INTERFACE-Profileこのプロファイルは出力を修正することは許可されていません。" />
+    <String name="rcAccessMonitorSpeed" value="INTERFACE-Profileこのプロファイルはモニタースピードを修正することは許可されていません" />
+    <String name="rcAccessProgramStop" value="INTERFACE-Profileこのプロファイルは動作中のアプリケーションを停止することは許可されていません。" />
+    <String name="rcAccessRemoteMovehold" value="INTERFACE-Profileこのプロファイルはリモートモード中に move/hold ボタンを使用することを許可されていません。" />
+    <String name="rcAccessRemotePower" value="INTERFACE-Profileこのプロファイルはリモートモード中に電源を無効にすることを許可されていません。" />
+    <String name="rcAutoEnable" value="Cannot apply arm power: park the pendant on the cradle." />
+    <String name="rcConnectionOk" value="MOTION-ConnectOkコネクションムーブの終了。" />
+    <String name="rcDofSelection" value="軸もしくは方向の不正な動作" />
+    <String name="rcEstop" value="アームパワーを入れられません : 緊急停止後は、再度ティーチペンダントをパークしなければなりません。" />
+    <String name="rcEstopRemoteAck" value="アームパワーを入れられません : 緊急停止が作動してないか,緊急停止信号(iomap.cfで定義)が出ていないか確認して下さい." />
+    <String name="rcFastSpeedValidated" value="FastMode高速テストモードが有効です。モニタースピードキーを使って速度を上げてください。" />
+    <String name="rcLocalEnableError" value="アームパワーを有効にするリクエストが拒否されました : キャビネットのワーキングモードがリモートもしくは不正です。" />
+    <String name="rcManuDoutEnable" value="出力の書込み不可 : 有効にするにはデッドマンを押すかペンダントをパークして下さい。" />
+    <String name="rcManuDoutMode" value="出力の書込み不可 : まず、手動のワーキングモードを選択してください。" />
+    <String name="rcManuEnable" value="アームパワー入れられません : デッドマンを押すかペンダントをクレードルにパークして下さい。" />
+    <String name="rcManuFastRequested" value="リモートの高速スピードのリクエストは拒否されました : キャビネットワーキングモードは手動テストモードではありません。" />
+    <String name="rcManuMode" value="マニュアル動作モード:" />
+    <String name="rcManuSlow" value="Jogの動作は手動ﾓｰﾄﾞでのみ可能です.Jogｲﾝﾀｰﾌｪｰｽにｱｸｾｽするにはｱｰﾑ電源を切って下さい." />
+    <String name="rcManuValidationDeadman" value="アームパワーを入れられません : アームパワーを入れるには、&amp;を放してデッドマンを押して下さい。" />
+    <String name="rcManuValidationPark" value="アームパワーを入れられません : アームパワーを入れるには、ティーチペンダントを再度パークして下さい。" />
+    <String name="rcNotCalibrated" value="ロボットはキャリブレーションされていません : joint ジョグ動作のみ可能です。" />
+    <String name="rcNotDisabled" value="アームパワーを入れられません : アームパワーはまだ無効化処理中です。" />
+    <String name="rcNotEnabled" value="ジョグモードを選択できません : まずアームパワーを入れてください。" />
+    <String name="rcNotInitialized" value="アームパワーを入れられません : キャビネットがまだ初期化されていません。" />
+    <String name="rcPowerOff" value="アームパワーを入れられません : 電源オフの同時リクエスト。" />
+    <String name="rcRemoteDisableError" value="リモートでアームパワーを無効にするリクエストは拒否されました : キャビネットのワーキングモードは、ローカルです。" />
+    <String name="rcRemoteEnableError" value="リモートのアームパワーリクエストは拒否されました:まずリモートのワーキングモードに切り替えてください。" />
+    <String name="rcSafetyDefaultNotAck" value="fault on signal %s を確認してください。" />
+    <String name="rcSafetyDefaultNotCleared" value="signal %s にて異常を検知しています。" />
+    <String name="rcSelection" value="ジョグ動作は不可です : まずジョグモードを選択してください。" />
+    <String name="rcSettleTimeout" value="ROBOT-SettlingTimeout注意 : パワー無効化処理中に、アームを停止できませんでした。" />
+    <String name="rcNoTargetDefined" value="ﾎﾟｲﾝﾄがありません." />
+    <String name="recorderCannotCloseData" value="レコーダはデータを閉じれませんでした" />
+    <String name="recorderCannotGetValue" value="レコード停止 : 変数を読み込めませんでした" />
+    <String name="recorderCannotOpenData" value="レコーダーはデータを開けません" />
+    <String name="recorderInvalidFrequency" value="レコーダー 設定 エラー : 不正な周波数" />
+    <String name="recorderMemFull" value="レコード停止 : レコードのメモリがいっぱいです" />
+    <String name="recorderModifiedFrequency" value="レコーダー周波数が不安定です" />
+    <String name="recorderParamInvalidFrequency" value="レコーダー 設定 エラー : 不正な周波数" />
+    <String name="recorderParamInvalidDuration" value="レコーダーパラメータエラー : 不正な持続時間" />
+    <String name="recorderParamRecorderNotFound" value="レコーダーパラメータエラー : レコーダーが見つかりません" />
+    <String name="recorderParamVarNotInPool" value="レコーダー 設定 エラー : レコーダー変数 ### は宣言されていません" />
+    <String name="recorderTimeout" value="レコーダー内部エラー : タイムアウト" />
+    <String name="robotAbscalNotEnabled" value="CAL-Disabledシステムイベント %d軸のキャリブレーションは無効です" />
+    <String name="robotEnvelopeError" value="ROBOT-EnveloppeErrエンベロープ エラー : # 軸" />
+    <String name="robotLocked" value="ROBOT-Lockedロボットはロックされました : " />
+    <String name="robotMessCplAxis" value="CAL-Coupling#Y 軸の前に #X をキャリブレーションしてください" />
+    <String name="robotMessFbkErr" value="DRIVE-Feedback# 軸のポジションセンサーエラー" />
+    <String name="robotNotDisabled" value="ロボットをキャリブレーションできません : アームパワーがONになっています。" />
+    <String name="robotOverForce" value="ROBOT-OverTorqueロボット-オーバートルク # 軸" />
+    <String name="robotVelocityMax" value="ROBOT-OverVelocityMax ロボット-オーバースピード # 軸" />
+    <String name="safeBoot" value="セーフブートするには &apos;s&apos; を押して下さい" />
+    <String name="safety24vFusRsi" value="内部パワーエラー (RSIボードのヒューズ F2 ?)" />
+    <String name="safety24vFusUsbi" value="内部パワーエラー (USBIセーフティボードのヒューズ F3 ?)" />
+    <String name="safetyBadWiring" value="SAFETY-Wiring緊急停止チェーンの信号配線にミスがあります " />
+    <String name="safetyBrkRel" value="SAFETY-BrkRelブレーキリリースボタンが押されました。" />
+    <String name="safetyBrkSel" value="SAFETY-BrkSelブレーキセレクトスイッチがノーマル(0)ポジションから切り替えられました。" />
+    <String name="safetyDefaultAck" value="緊急停止信号 %z が確認されました。" />
+    <String name="safetyDefaultRepaired" value="緊急停止信号 %z は復旧されました。" />
+    <String name="safetyDefaultWriteError" value="障害情報の保存中にエラーが発生しました。" />
+    <String name="safetyDf" value="ドライブエラー SAFETY-DriveFault。" />
+    <String name="safetyDisablingOff" value="SAFETY-Endを検出: " />
+    <String name="safetyDisablingOn" value="SAFETY-Startを検出: " />
+    <String name="safetyDoor" value="SAFETY-DOOR緊急停止チェーンのドアが開いています。" />
+    <String name="safetyLsw" value="SAFETY-Lsw Jointリミットのスイッチがアクティブになりました。" />
+    <String name="safetyModeError" value="SAFETY-Mode不正なワーキングモードです。" />
+    <String name="safetyNoSignals" value="システムイベント SAFETY-NoSignal " />
+    <String name="safetyNotInitialized" value="システムイベント ROBOT-SafetyInit " />
+    <String name="safetyPhasing" value="位相信号が有効です" />
+    <String name="safetyPowerRefused" value="アームパワーが安定できません: " />
+    <String name="safetyRemoteEs" value="リモート緊急停止が動作しました" />
+    <String name="safetyShortr" value="システムイベント SAFETY-ShortrOpen." />
+    <String name="safetyShutdown" value="SAFETY-Shutdownアームパワーがシャットダウンしました: " />
+    <String name="safetySoftwareError" value="システムイベント ROBOT-Safety." />
+    <String name="safetyThermoOpened" value="システムイベント SAFETY-ThermoOpened." />
+    <String name="safetyTpes" value="SAFETY-Tpesティーチペンダントの緊急停止が押されました." />
+    <String name="safetyTransient" value="システムイベント SAFETY-Transient." />
+    <String name="safetyUen" value="SAFETY-UENマニュアルモードの緊急停止チェーンが開いています(User EN)。" />
+    <String name="safetyUes1_2" value="SAFETY-UES12セルの緊急停止チェーンが開いています " />
+    <String name="safetyUes3_4" value="SAFETY-UES34セルの緊急停止チェーンが開いています " />
+    <String name="safetyUnknown" value="システムイベント SAFETY-Unknown." />
+    <String name="safetyUnstable" value="システムイベント SAFETY-UnstableSignal." />
+    <String name="safetyWdg" value="システムイベント SAFETY-Watchdog." />
+    <String name="safetyWorkingMode" value="SAFETY-WorkingModeワーキングモードの変更." />
+    <String name="safetyEstopSoft" value="system event SAFETY-EstopSoft" />
+    <String name="sntpFailure" value="ｼｽﾃﾑ時計の同期に失敗しました.ｻｰﾊﾞｰ ###" />
+    <String name="sntpSuccess" value="ｼｽﾃﾑ時計の同期は成功しました.ｻｰﾊﾞｰ ###" />
+    <String name="standardBoot" value="通常起動するには &apos;b&apos; を押して下さい" />
+    <String name="starcNewFwErr" value="Starcソフトウェアの更新中にエラーが発生しました。Stäubli SAVに連絡してください。" />
+    <String name="starcNewFwInf" value="新しいStarcソフトウェア" />
+    <String name="starcNewFwRebInf" value="Starcソフトウェアの更新。コントローラを再起動してください。" />
+    <String name="startLogMsg" value="ログが開始されました" />
+    <String name="timeBeforeStdBoot" value="通常起動前の時間: " />
+    <String name="systemEvent" value="システムイベント " />
+    <String name="tmCbtLogMsg" value="キャビネット 温度: %f°C" />
+    <String name="tmCbtReadError" value="システムイベント RSI-NoTemperature. RSIボードの温度が読み取れません。" />
+    <String name="tmCbtThresholdMax" value="システムイベント RSI-TemperatureLimit. 限界温度に達しました。RSIボードの動作は不安定です。" />
+    <String name="tmCbtThresholdMin" value="システムイベント RSI-TemperatureLow. RSIボードが予期しない低温です。" />
+    <String name="tmCpuLogMsg" value="CPU 温度: %f°C" />
+    <String name="tmCpuReadError" value="システムイベント event CPU-NoTemperature. CPUボードの温度が読み取れません。" />
+    <String name="tmCpuThresholdMax" value="システムイベント  CPU-TemperatureLimit. 限界温度に達しました。CPUボードの動作は不安定です。" />
+    <String name="tmCpuThresholdMin" value="システムイベント  CPU-TemperatureLow. CPUボードが予期しない低温です。" />
+    <String name="trackedTargetVelTooBig" value="目標速度が大きすぎます" />
+    <String name="trackingCannotFollow" value="トラッキングに追従するのに加速度もしくは速度が足りません" />
+    <String name="trackingCantFolAcc" value=" Accel. or decel. limit reached on axis ###." />
+    <String name="trackingCantFolVel" value=" Velocity limit reached on axis ###." />
+    <String name="trackingCantFolPos" value=" Position out of range on axis ###." />
+    <String name="trackingInternalError" value="トラッキング動作エラー" />
+    <String name="trackingIterationsFailed" value="トラッキングの反復に失敗しました" />
+    <String name="badTrackingSequence" value="トラッキングシーケンスが不正です" />
+    <String name="trackingSeqNoTrackOn" value=" TrackOn needed" />
+    <String name="trackingSeqNoTrackOff" value=" TrackOff needed" />
+    <String name="trackingSeqFrameDiffer" value=" Moving frame are different." />
+    <String name="trajContinuityError" value="Robot not at trajectory start position" />
+    <String name="usbDeviceNotSupported" value="このUSBデバイスの通信プロトコルはサポートされていません。CS8は、RBC、UFI そしてSCSI USB 1.0 プロトコルをサポートしています。" />
+    <String name="wallMounted" value="wall" />
+    <String name="stepMoveIndicator" value="Step" />
+    <String name="connectionMoveIndicator" value="Conn." />
+    <String name="refMoveIndicator" value="Ref." />
+  </Resources>
+  <Resources name="CBI" >
+    <String name="mainMenuTitle" value="メイン メニュー" help="&apos;Top&apos; メインメニューです。キーを使って直接操作します。" />
+    <String name="infoBarString4" value="Info" />
+    <String name="helpTitle" value="ヘルプ" help="" />
+    <String name="cancelMenu" value="Esc" help="全ての変更をキャンセルして閉じます" />
+    <String name="noMenu" value="No" help="" />
+    <String name="noForAllMenu" value="N2A" help="全ていいえ" />
+    <String name="offMenu" value="Off" />
+    <String name="okMenu" value="Ok" help="変更を保存して閉じます" />
+    <String name="onMenu" value="On" />
+    <String name="quitMenu" value="Quit" help="" />
+    <String name="yesMenu" value="Yes" help="" />
+    <String name="yesForAllMenu" value="Y2A" help="全て はい" />
+    <String name="accessDeniedText" value="このプロファイルでは、このアクションを許可されていません" />
+    <String name="popupTitle" value="メッセージ" help="" />
+    <String name="defaultHelpText" value="ヘルプはありません。" />
+    <String name="currentPasswordString" value="現在のパスワード" help="" />
+    <String name="wrongPasswordText" value="パスワードが違います" />
+    <String name="newPasswordOneString" value="新しいパスワード" help="" />
+    <String name="newPasswordTwoString" value="もう一度パスワードを入力してください" help="" />
+    <String name="newPasswordErrorText" value="新しいパスワードのエラー" />
+    <String name="newPasswordTitle" value="パスワードの入力" help="" />
+  </Resources>
+  <Resources name="V3C" >
+    <String name="applicationNotInCell" value="セル内にアプリケーションが見つかりません" />
+    <String name="applicationNotFound" value="アプリケーションが見つかりません" />
+    <String name="compilerVersion" value="VAL3ﾁｪｯｸ ﾊﾞｰｼﾞｮﾝ" />
+    <String name="error" value="エラー(s)" />
+    <String name="helpExample" value="例 : VAL3Check -Vdummy.cf -E&quot;%e: (%f:%l) %m&quot; " />
+    <String name="helpLine1" value="使用法 : VAL3Check [-d] [-Vfile] [-Eformat] applications" />
+    <String name="helpLine2" value="  -d            : 言語ファイル(val3.cfx)の表示パス" />
+    <String name="helpLine3" value="  -VVAL3.cfx    : VAL3 記述ファイル (val3.cfx)へのパスを指定してください" />
+    <String name="helpLine4" value="  -Eerror format: エラーの出力形式の変更" />
+    <String name="helpLine5" value="        %f=ファイル名, %l=行番号, %e=エラー／警告 %m=メッセージ" />
+    <String name="helpLine6" value="  -Rroot        : VAL3アプリケーション(usrapp)へのルートパス" />
+    <String name="internalError" value="VAL3の内部エラーチェッカ" />
+    <String name="loadLanguageDefinitionError" value="VAL3の参照ファイル(val3.cfx) がロードできません" />
+    <String name="resourceError" value="言語リソースファイルが見つかりません" />
+    <String name="val3Version" value="VAL3 バージョン" />
+    <String name="warning" value="警告(s)" />
+    <String name="rootPath" value="ルートパス コンパイラ:" />
+  </Resources>
+  <Resources name="WSC">
+    <String name="mountNode" value="'%z'のマウントモード'%z'" />
+    <String name="errorAddNode" value="ノード'%z'を追加できません。既に存在していないかチェックしてください" />
+    <String name="errorTypeNode" value="ノード'%z'のタイプ'%z'は不明です" />
+    <String name="errorPathNode" value="ノード'%z'のパス'%z'を解決できません : ファイルマネージャが不正か使用できません" />
+    <String name="errorRootNode" value="警告 : ノード '%z' : ルートパス '%z' は存在しません" />
+    <String name="errorFileMgr" value="ファイルマネージャの内部エラー : 不明なコードです" />
+    <String name="errorFMUsr" value="内部エラー : 'Usr' ファイルマネージャが見つかりません" />
+    <String name="errorFMDisk" value="内部エラー : 'Disk' ファイルマネージャが見つかりません" />
+    <String name="addonFound" value="アドオンが見つかりました" />
+    <String name="internalError" value="内部エラー :  #%d" />
+  </Resources>
+</ResourcesList>

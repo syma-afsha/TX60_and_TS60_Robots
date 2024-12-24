@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataList xmlns="DataNameSpace">
+  <aioSection />
+  <boolSection />
+  <configRsSection />
+  <configSection>
+    <config name="cydr0" public="false">
+      <valueConfig index="0">
+        <configValue shoulder="ssame" elbow="esame" wrist="wsame" />
+      </valueConfig>
+    </config>
+  </configSection>
+  <dioSection>
+    <dio size="1" name="cydr" public="false" />
+    <dio size="1" name="sensor" public="false" />
+  </dioSection>
+  <frameSection>
+    <frame name="world" public="false">
+      <fFather alias="" name="" fatherIndex="0" />
+      <valueFrame index="0">
+        <tfValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+      </valueFrame>
+    </frame>
+  </frameSection>
+  <jointRsSection />
+  <jointSection>
+    <joint name="position0" public="false">
+      <valueJoint index="0">
+        <jointValue j1="-3.388022" j2="43.15994" j3="12.170438" j4="1.072071" j5="12.734622" j6="33.518922" />
+      </valueJoint>
+    </joint>
+  </jointSection>
+  <mdescSection>
+    <mdesc name="mNomSpeed" public="true">
+      <valueMdesc index="0">
+        <mdescValue accel="100" vel="100" decel="100" tmax="99999" rmax="99999" blend="joint" leave="50" reach="50" />
+      </valueMdesc>
+    </mdesc>
+  </mdescSection>
+  <numSection>
+    <num name="i" public="false">
+      <valueNum value="0" index="0" />
+    </num>
+  </numSection>
+  <pointRsSection />
+  <pointSection>
+    <point name="position1" public="false">
+      <pFather alias="" name="world" fatherIndex="0" />
+      <valuePoint index="0">
+        <tpValue x="359.39" y="-369.08" z="-348.58" rx="80.9" ry="-68.39" rz="-96.32" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="1">
+        <tpValue x="567.20978" y="57.407412" z="-345.823032" rx="-89.493947" ry="-10.670032" rz="87.615799" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="2">
+        <tpValue x="374.31" y="137.33" z="-381.48" rx="176.66" ry="0.51" rz="-9.05" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="3">
+        <tpValue x="374.31" y="162.6" z="-381.48" rx="176.66" ry="0.51" rz="-9.05" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="4">
+        <tpValue x="374.31" y="187.01" z="-381.48" rx="176.66" ry="0.51" rz="-9.05" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="5">
+        <tpValue x="374.31" y="212.56" z="-381.48" rx="176.66" ry="0.51" rz="-9.05" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="6">
+        <tpValue x="565.47" y="55.24" z="-340.49" rx="176.66" ry="0.51" rz="-9.05" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="7">
+        <tpValue x="641.83" y="-163.31" z="-361.06" rx="-178.07" ry="-2.59" rz="23.23" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="8">
+        <tpValue x="607.44" y="-219.14" z="-361.57" rx="-178.07" ry="-2.59" rz="23.23" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="9">
+        <tpValue x="572.14" y="-274.25" z="-361.66" rx="-178.07" ry="-2.59" rz="23.23" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="10">
+        <tpValue x="539.58" y="-329.35" z="-359.59" rx="-178.07" ry="-2.59" rz="23.23" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+      <valuePoint index="11">
+        <tpValue x="563.13" y="55.19" z="-358.5" rx="-173.63" ry="-1.69" rz="-0.3" />
+        <cpValue shoulder="sfree" elbow="efree" wrist="wfree" />
+      </valuePoint>
+    </point>
+  </pointSection>
+  <sioSection />
+  <stringSection />
+  <toolSection>
+    <tool name="flange" public="false">
+      <tFather alias="" name="" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="0" y="0" z="0" rx="0" ry="0" rz="0" />
+        <io alias="io" name="valve1" ioIndex="0" open="0" close="0" />
+      </valueTool>
+    </tool>
+    <tool name="tool0" public="false">
+      <tFather alias="" name="flange" fatherIndex="0" />
+      <valueTool index="0">
+        <ttValue x="30" y="30" z="170" rx="-90" ry="44" rz="-90" />
+        <io alias="io" name="valve1" ioIndex="0" open="1" close="1" />
+      </valueTool>
+      <valueTool index="1">
+        <ttValue x="-30" y="-30" z="175" rx="0" ry="0" rz="-134" />
+        <io alias="io" name="valve1" ioIndex="0" open="1" close="1" />
+      </valueTool>
+    </tool>
+  </toolSection>
+  <trsfSection>
+    <trsf name="offset" public="false">
+      <valueTrsf index="0">
+        <trsfValue x="-50" y="0" z="0" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+      <valueTrsf index="1">
+        <trsfValue x="0" y="0" z="-50" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+      <valueTrsf index="2">
+        <trsfValue x="0" y="0" z="-100" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+      <valueTrsf index="3">
+        <trsfValue x="0" y="0" z="-330" rx="0" ry="0" rz="0" />
+      </valueTrsf>
+    </trsf>
+  </trsfSection>
+</dataList>

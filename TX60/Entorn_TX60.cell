@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cell version="2019.7.2" xmlns="http://www.staubli.com/robotics/cell/1">
+  <File path="Controller-TX60\Controller-TX60.controller" />
+</Cell>

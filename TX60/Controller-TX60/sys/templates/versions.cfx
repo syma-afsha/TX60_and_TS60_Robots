@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VersionDescription>
+  <Version>3</Version>
+  <CS8Version>s6.8</CS8Version>
+  <Arms>
+    <ArmAnthropomorphic name="rx90b">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R5" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R5" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx90bl">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx130b">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R4" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R4" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx130bl">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx60b">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R5" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S2">
+          <Tuning name="R5" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S2">
+          <Tuning name="R5" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx60bl">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R4" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S2">
+          <Tuning name="R4" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S2">
+          <Tuning name="R4" />
+        </Revision>
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx170b">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R6" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R6" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx170bl">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx170bhp">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R4" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R4" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx170hsm">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R1-V2" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx130bxl">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx90">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R6" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R6" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R6" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx90l">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx90xl">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R5" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R5" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R5" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx40">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+        <Revision name="S2">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+        <Revision name="S2">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+        <Revision name="S2">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx94b">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx260">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx260l">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx60">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R3" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx134b">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx160">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R8" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R8" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx160l">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R7" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R7" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx200">
+      <Mount name="floor">
+        <Revision name="S3">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S3">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx200l">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S2">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="tx60l">
+      <Mount name="floor">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+      <Mount name="wall">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+      <Mount name="ceiling">
+        <Revision name="S1">
+          <Tuning name="R2" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmAnthropomorphic name="rx270">
+      <Mount name="floor">
+        <Revision name="S2">
+          <Tuning name="R1" />
+        </Revision>
+      </Mount>
+    </ArmAnthropomorphic>
+    <ArmScara name="rs40">
+      <Mount name="floor">
+        <Diameter name="D20">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D20">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="rs60">
+      <Mount name="floor">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+        </Diameter>
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L600">
+            <Revision name="S1">
+              <Tuning name="R2" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+        </Diameter>
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L600">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="rs80">
+      <Mount name="floor">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R2" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R2" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R2" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R2" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R4" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="rs40b">
+      <Mount name="floor">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D20">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="rs20">
+      <Mount name="floor">
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S3">
+              <Tuning name="R3" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="ts80">
+      <Mount name="floor">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="ts60">
+      <Mount name="floor">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="ts40">
+      <Mount name="floor">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1-V4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1-V4" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+      <Mount name="wall">
+        <Diameter name="D25">
+          <Length name="L200">
+            <Revision name="S1">
+              <Tuning name="R1-V4" />
+            </Revision>
+          </Length>
+          <Length name="L400">
+            <Revision name="S1">
+              <Tuning name="R1-V4" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+    <ArmScara name="ts20">
+      <Mount name="floor">
+        <Diameter name="D25">
+          <Length name="L100">
+            <Revision name="S1">
+              <Tuning name="R1" />
+            </Revision>
+          </Length>
+        </Diameter>
+      </Mount>
+    </ArmScara>
+  </Arms>
+  <Options>
+    <Option name="compliance" />
+    <Option name="remoteMcp" />
+    <Option name="plc" />
+    <Option name="testMode" />
+    <Option name="mcpMode" />
+    <Option name="lli" />
+    <Option name="PaintiXen" />
+    <Option name="valPlast" />
+    <Option name="valTrack" />
+    <Option name="valTending" />
+    <Option name="valTraj" />
+    <Option name="cds" />
+    <Option name="alter" />
+    <Option name="oemLicence" />
+    <Option name="remoteMaintenance" />
+    <Option name="pciAccess" />
+    <Option name="continuousAxis" />
+    <Option name="6axesAbsoluteRobot" />
+    <Option name="4axesAbsoluteRobot" />
+  </Options>
+</VersionDescription>

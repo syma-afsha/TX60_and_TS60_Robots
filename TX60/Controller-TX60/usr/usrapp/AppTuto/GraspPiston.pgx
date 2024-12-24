@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="GraspPiston" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+    open(tool0[1])
+    waitEndMove()
+    movej(appro(position1[i+13],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+    waitEndMove()
+    movel(position1[i+13],tool0[1],mNomSpeed[0])
+    waitEndMove()
+    if sensor[0]==true
+      movel(appro(position1[i+13],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+
+      movej(appro(position1[i+3],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+
+      movel(position1[i+3],tool0[1],mNomSpeed[0])
+      waitEndMove()
+
+      close(tool0[1])
+      waitEndMove()
+      putln("piston picked")
+      movel(appro(position1[i+3],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+      movej(appro(position1[6],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+      movel(position1[6],tool0[1],mNomSpeed[0])
+      waitEndMove()
+      open(tool0[1])
+      waitEndMove()
+
+      movel(appro(position1[6],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+      putln("Change tool")
+      movej(appro(position1[11],{0,0,-100,0,0,0}),tool0[0],mNomSpeed[0])
+      waitEndMove()
+
+      movel(position1[11],tool0[0],mNomSpeed[0])
+      waitEndMove()
+      close(tool0[0])
+      waitEndMove()
+      movel(appro(position1[11],{0,0,-100,0,0,0}),tool0[0],mNomSpeed[0])
+      waitEndMove()
+      putln("Grasp the cylinder ")
+    endIf
+end
+</code>
+    </source>
+  </program>
+</programList>

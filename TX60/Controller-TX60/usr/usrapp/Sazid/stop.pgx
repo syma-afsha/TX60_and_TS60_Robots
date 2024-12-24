@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="stop" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  movej(position0[0],tool0[0],mNomSpeed[0])
+  putln("Program completed")
+  resetMotion()
+end</code>
+    </source>
+  </program>
+</programList>

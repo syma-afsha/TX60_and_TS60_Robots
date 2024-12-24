@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CellUserOptions>
+  <Controller Name="Controller-TX60">
+    <Application>Disk://AppTuto/AppTuto.pjx</Application>
+    <Application>Disk://Sazid/Sazid.pjx</Application>
+  </Controller>
+  <Option Name="DataTreeView">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\configRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\dio" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\jointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\mdesc" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\num" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\pointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\tool" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\trsf" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\configRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\dio" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\jointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\mdesc" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\num" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\pointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\tool" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx\trsf" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="CellExplorer">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##AppTuto#AppTuto.pjx\PlaceCP" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Sazid#Sazid.pjx" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="GeometryView">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\AppTuto" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\AppTuto\jointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Sazid" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Sazid\jointRx" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="Breakpoints">
+    <Breakpoints />
+  </Option>
+  <Option Name="IOsControlPanel">
+    <Ios />
+  </Option>
+  <Option Name="Watches">
+    <Watches />
+  </Option>
+  <Option Name="ExpressionWatches">
+    <ExpressionWatches>
+      <ExpressionWatch></ExpressionWatch>
+    </ExpressionWatches>
+  </Option>
+  <Option Name="3DView">
+    <_3DView Visible="true" />
+  </Option>
+  <Option Name="SynchronizerMode">
+    <Synchronizers>
+      <Synchronizer Controller="Controller-TX60" Mode="Emulator" />
+    </Synchronizers>
+  </Option>
+  <Option Name="Safety">
+    <Safeties />
+  </Option>
+</CellUserOptions>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="PlaceCP1" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+movej(appro(position1[8],{0,0,-100,0,0,0}),tool0[0],mNomSpeed[0])
+waitEndMove()
+movel(position1[8],tool0[0],mNomSpeed[0])
+waitEndMove()
+
+open(tool0[0])
+waitEndMove()
+
+movel(appro(position1[8],{0,0,-100,0,0,0}),tool0[0],mNomSpeed[0])
+waitEndMove()
+putln("Place 1 position reached")
+end</code>
+    </source>
+  </program>
+</programList>

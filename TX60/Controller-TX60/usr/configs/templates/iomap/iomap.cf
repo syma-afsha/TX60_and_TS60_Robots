@@ -1,0 +1,57 @@
+// To activate a io mapping, remove the comment marks '//'
+// and replace the description with the name of a system input or output,
+// then reboot. Correct / incorrect mappings are listed in the event logger.
+
+//===== MAPPING OF SYSTEM SIGNALS TO SYSTEM OUTPUTS =====
+//limitSwitch = digital output - status of the electrical limit switches (LSW signal)
+//driveFault = digital output - status of the drives (DF signal)
+//initSwitch = digital output - status of the software activation of the safety chain (SHORTR signal)
+//watchdog = digital output - status of the USBI board watchdog (WDG signal)
+//fuse24V = digital output - status of the USBI board fuse 24V (24V_FUS signal)
+//estopMCP = digital output - status of the MCP emergency stop (deduced from TPES1 and TPES2 signals)
+//estopUser1-2 = digital output - status of one user emergency stop (deduced from UES1 and UES2 signals)
+//estopUser3-4 = digital output - status of the other user emergency stop (deduced from UES3 and UES4 signals)
+//estopWMS = digital output - status of the remote or "working mode selector" emergency stop (deduced from WMSES1 and WMSES2 signals)
+//userEnable = digital output - status of the user enable signals (deduced from UEN1 and UEN2 signals)
+//door = digital output - status of the door (deduced from DOOR1 and DOOR2 signals)
+//brakeSelect = digital output - status of the brake select switch (BRK_SEL signal)
+//brakeRelease = digital output - status of the brake release switch (BRK_REL signal)
+//park = digital output - status of the MCP park captor (deduced from PARK1 and PARK2 signals)
+//deadman = digital output - status of the MCP deadman switch (deduced from DEADMAN1 and DEADMAN2 signals)
+//hardwareFault = digital output - a fault on hardware signals was detected and must be fixed
+
+//popup = serial output - transmit popup messages
+//power = digital output - status of arm power
+//fastSpeed = digital output - status of the fast speed mode in test working mode
+//dummyPlug = digital output - presence of the dummy plug in replacement of the MCP
+//temperature = analog output - temperature of the cabinet in °C (measured on safety board)
+
+//===== CONFIGURATION OF SYSTEM INPUTS =====
+//estopAcknowledge = digital input - acknowledge Estop in manual mode - default is MCP park signal
+//validationKey = digital input - switch to fast speed in test mode
+//enablePower = digital input - enable power in remote mode
+//hardwareFaultAcknowledge = digital input - acknowledge the repair of a fault on hardware signals
+
+//remoteMonitorSpeed = analog input ]0,+100] - replace the -/+ keys of the MCP (only when MCP is replaced with a dummy plug)
+//remoteMoveHold = digital input - replace the Move/Hold button of the MCP (only when MCP is replaced with a dummy plug)
+
+//remoteEnablePower = digital input - replace the Power button of the MCP (only with 'remote Mcp' option)
+//remoteTestMode = digital input - switch to Test mode (only with 'remote Mcp' option)
+//remoteManualMode = digital input - switch to Manual mode (only with 'remote Mcp' option)
+//remoteLocalMode = digital input - switch to Local mode (only with 'remote Mcp' option)
+//remoteRemoteMode = digital input - switch to Remote mode (only with 'remote Mcp' option)
+//remoteDeadman1 = digital input - replace one deadman contact of the MCP (only with 'remote Mcp' option)
+//remoteDeadman2 = digital input - replace the other deadman contact of the MCP (only with 'remote Mcp' option)
+//remotePark1 = digital input - replace one park contact of the MCP (only with 'remote Mcp' option)
+//remotePark2 = digital input - replace the other park contact of the MCP (only with 'remote Mcp' option)
+//remoteJogJointMode = digital input - replace the Joint button of the MCP (only with 'remote Mcp' option)
+//remoteJogFrameMode = digital input - replace the Frame button of the MCP (only with 'remote Mcp' option)
+//remoteJogToolMode = digital input - replace the Tool button of the MCP (only with 'remote Mcp' option)
+//remoteJogUserMode = digital input - replace the Point button of the MCP (only with 'remote Mcp' option)
+//remoteJogMove1 = analog input [-100,+100] - replace the X -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteJogMove2 = analog input [-100,+100] - replace the Y -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteJogMove3 = analog input [-100,+100] - replace the Z -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteJogMove4 = analog input [-100,+100] - replace the RX -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteJogMove5 = analog input [-100,+100] - replace the RY -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteJogMove6 = analog input [-100,+100] - replace the RZ -/+ buttons of the MCP (only with 'remote Mcp' option)
+//remoteSpeedLimit = digital input - increase the max. Cartesian speed in fast test mode (only with 'remote Mcp' option)

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  cls()
+  putln("Start the program")
+  enablePower()
+  dioLink(sensor[0],io:bIn0)
+  dioLink(cylin[0],io:bOut10)
+  mNomSpeed.vel=30
+  movej(position0[0],tool0[0],mNomSpeed[0])
+  waitEndMove()
+  putln("Home position reached")
+  open(tool0[0])
+  for i=0 to 2 step 1
+    
+    call Pick_Cylinder()
+    if i==0
+      putln("Check pistion counter = 0 ")
+      movej(appro(position1[12],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+      movel(position1[12],tool0[1],mNomSpeed[0])
+      waitEndMove()
+      if sensor[0]==true
+        movel(appro(position1[12],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+        movej(appro(position1[2],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+        movel(position1[2],tool0[1],mNomSpeed[0])
+        waitEndMove()
+        close(tool0[1])
+        waitEndMove()
+        putln("Pick the piston successfully")
+        movel(appro(position1[2],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+
+        call AssembleCP()
+      else
+        call GraspPiston()
+      endIf
+    else
+      putln("Check pistion counter != 0")
+      movej(appro(position1[i+12],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+      waitEndMove()
+      movel(position1[i+12],tool0[1],mNomSpeed[0])
+      waitEndMove()
+
+      if sensor[0]==true
+        movel(appro(position1[i+12],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+        movej(appro(position1[i+2],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+        movel(position1[i+2],tool0[1],mNomSpeed[0])
+        waitEndMove()
+
+        close(tool0[1])
+        waitEndMove()
+        putln("Pick the piston successfully")
+        movel(appro(position1[i+2],{0,0,-100,0,0,0}),tool0[1],mNomSpeed[0])
+        waitEndMove()
+
+        call AssembleCP()
+      else
+        call GraspPiston()
+      endIf
+    endIf
+    if i==0
+      call PlaceCP()
+    elseIf i == 1
+      call PlaceCP1()
+    elseIf i == 2
+      call PlaceCP2()
+    endIf
+  endFor
+  movej(position0[0],tool0[0],mNomSpeed[0])
+waitEndMove()
+end</code>
+    </source>
+  </program>
+</programList>

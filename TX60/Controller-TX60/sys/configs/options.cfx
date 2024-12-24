@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <starc2Slot index="2" board="" />
+  <starc2Slot index="1" board="" />
+  <starc2Slot index="0" board="" />
+  <Bool name="buildStarc2" value="True" />
+  <Bool name="buildSerial2" value="False" />
+  <Bool name="buildSerial1" value="False" />
+  <String name="cioBoardConfig" value="" />
+  <Bool name="buildCio" value="False" />
+  <Bool name="buildBio" value="True" />
+  <Bool name="buildBio2" value="False" />
+  <Bool name="buildMio" value="False" />
+  <String name="testMode" value="Demo" />
+</options>
