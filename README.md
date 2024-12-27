@@ -5,3 +5,8 @@
  - SRS for Robot Simulation 
  - CS8 Controller
 
+#### Group Member
+
+1.Syma Afsha
+
+2. Mir Mohibullah Sazid
